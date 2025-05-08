@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1330" height="17497" viewBox="0 0 1330 17497">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#feead4" stop-opacity="0"/>
+      <stop offset="0.313" stop-color="#fff5ea"/>
+      <stop offset="0.644" stop-color="#fff5ea"/>
+      <stop offset="1" stop-color="#feead4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="-0.063" x2="0.5" y2="1.029" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.381" stop-color="#f2ecfd" stop-opacity="0.702"/>
+      <stop offset="0.642" stop-color="#f2ecfd" stop-opacity="0.702"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="-0.063" x2="0.5" y2="1.029" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.381" stop-color="#edf7fe"/>
+      <stop offset="0.642" stop-color="#edf7fe"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1178147" data-name="Grupo 1178147" transform="translate(-135 -240)">
+    <rect id="Rectángulo_575" data-name="Rectángulo 575" width="1328" height="17497" rx="20" transform="translate(136 240)" fill="#fff"/>
+    <rect id="Rectángulo_404715" data-name="Rectángulo 404715" width="1330" height="716.441" transform="translate(135 1229.672)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_404934" data-name="Rectángulo 404934" width="1330" height="470.881" transform="translate(135 8067.184)" opacity="0.784" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_404804" data-name="Rectángulo 404804" width="1330" height="543.145" transform="translate(135 6618.921)" fill="url(#linear-gradient-3)"/>
+    <rect id="Rectángulo_404929" data-name="Rectángulo 404929" width="1330" height="491.706" transform="translate(135 7207.605)" opacity="0.892" fill="url(#linear-gradient-4)"/>
+    <rect id="Rectángulo_404964" data-name="Rectángulo 404964" width="1330" height="1091" transform="translate(135 16432.33)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
