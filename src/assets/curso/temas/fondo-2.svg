@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1339.949" height="15125" viewBox="0 0 1339.949 15125">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#feead4" stop-opacity="0"/>
+      <stop offset="0.313" stop-color="#fff5ea"/>
+      <stop offset="0.644" stop-color="#fff5ea"/>
+      <stop offset="1" stop-color="#feead4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2ecfd" stop-opacity="0"/>
+      <stop offset="0.313" stop-color="#f2ecfd"/>
+      <stop offset="0.644" stop-color="#f2ecfd"/>
+      <stop offset="1" stop-color="#f2ecfd" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#edf7fe" stop-opacity="0"/>
+      <stop offset="0.478" stop-color="#edf7fe"/>
+      <stop offset="1" stop-color="#edf7fe" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1178148" data-name="Grupo 1178148" transform="translate(-125.154 -240)">
+    <rect id="Rectángulo_575" data-name="Rectángulo 575" width="1328" height="15125" rx="20" transform="translate(136 240)" fill="#fff"/>
+    <rect id="Rectángulo_404964" data-name="Rectángulo 404964" width="1330" height="585.438" transform="translate(135 5962.994)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_405354" data-name="Rectángulo 405354" width="1330" height="795.202" transform="translate(135 6748.124)" opacity="0.645" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectángulo_404964-2" data-name="Rectángulo 404964" width="1330" height="563" transform="translate(135.104 10311.307)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_405381" data-name="Rectángulo 405381" width="1330" height="1340.385" transform="translate(135 13747.733)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_404527" data-name="Rectángulo 404527" width="1339" height="268" transform="translate(125.154 403)" fill="url(#linear-gradient-5)"/>
+  </g>
+</svg>
