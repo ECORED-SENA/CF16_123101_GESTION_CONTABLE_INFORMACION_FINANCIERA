@@ -326,9 +326,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ángela Viviana Páez Perilla ',
+          nombre: 'Nathaly Tatiana Wilches Ayala',
           cargo: 'Experta temática',
-          centro: 'Centro Agroindustrial - Regional Quindío',
+          centro: 'Centro de Servicios Financieros - Regional Distrito Capital',
         },
         {
           nombre: 'Paola Alexandra Moya',
@@ -342,7 +342,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yerson Fabian Zarate Saavedra',
+          nombre: 'Diana Milena Picón Rincón',
           cargo: 'Diseñador de contenidos',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

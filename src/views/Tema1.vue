@@ -6,144 +6,139 @@
       .titulo-principal__numero
         span 1
       h1 Costos
-    div(style="background-color: #DDEFFD ")
+
+    div(style="background-color: #DDEFFD ")(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-7: img(src='@/assets/curso/temas/4.png', alt='')
-        .col-lg-7
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/temas/4.png', alt='')
+        .col-lg
           .p-4
-            p.mb-0 Es de recordar que los costos hacen énfasis al dinero que una empresa invierte para la producción de algún tipo de bien o servicio, es decir, son los recursos económicos que se utilizan para la producción, donde se incluyen los valores del producto y/o prestación del servicio, con el fin de determinar el precio de venta para ofrecer en el mercado.
+            p.mb-0(data-aos="fade-up") Es de recordar que los costos hacen énfasis al dinero que una empresa invierte para la producción de algún tipo de bien o servicio, es decir, son los recursos económicos que se utilizan para la producción, donde se incluyen los valores del producto y/o prestación del servicio, con el fin de determinar el precio de venta para ofrecer en el mercado.
+
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1  Concepto de contabilidad de costos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
-        p.mb-0 En el ámbito empresarial este concepto es aplicable a los diferentes tipos de contabilidad, como pueden ser financiera, administrativa o de costos; en esta unidad se hace énfasis en la contabilidad de costos, teniendo en cuenta su importancia en las diferentes empresas.
-          br
-          br
-          |La contabilidad de costos hace referencia al proceso de recopilar información que permita calcular el valor de la producción de un bien o prestación de servicios para planear, controlar y tomar decisiones que permitan generar rentabilidad a la empresa.
-      .col-lg-4.col-7: img(src='@/assets/curso/temas/5.png', alt='')
+        p(data-aos="fade-left") En el ámbito empresarial este concepto es aplicable a los diferentes tipos de contabilidad, como pueden ser financiera, administrativa o de costos; en esta unidad se hace énfasis en la contabilidad de costos, teniendo en cuenta su importancia en las diferentes empresas.
+        p(data-aos="fade-right") La contabilidad de costos hace referencia al proceso de recopilar información que permita calcular el valor de la producción de un bien o prestación de servicios para planear, controlar y tomar decisiones que permitan generar rentabilidad a la empresa.
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/5.png', alt='').mx-auto.mt-4.mt-lg-0
     Separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2  Importancia y objetivos de la contabilidad de costos
-    p.mb-4 Esta contabilidad es una variable muy importante dentro de una organización, teniendo en cuenta que:
+    p.mb-4(data-aos='fade-right') Esta contabilidad es una variable muy importante dentro de una organización, teniendo en cuenta que:
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         ul.lista-ul
-          li.d-flex
+          li.d-flex(data-aos='fade-left')
             i.fas.fa-angle-right
             p.mb-0 Es una contabilidad analítica en la cual se pueden identificar todas las partes involucradas para dar vida a un producto o un servicio específico.
-          li.d-flex
+          li.d-flex(data-aos='fade-right')
             i.fas.fa-angle-right
             p.mb-0 Los costos permiten ver con claridad cómo está la organización, su punto de partida y de llegada para ajustar algunas variables en el camino del desarrollo de la misma.
-          li.d-flex
+          li.d-flex(data-aos='fade-left')
             i.fas.fa-angle-right
             p.mb-0 Contribuye a la toma de decisiones para mejorar, ver el crecimiento y la evolución de la organización en el tiempo.
-          li.d-flex
+          li.d-flex(data-aos='fade-right')
             i.fas.fa-angle-right
             p.mb-0 Controla el manejo de los recursos y la forma de optimizarlos.
-          li.d-flex
+          li.d-flex(data-aos='fade-left')
             i.fas.fa-angle-right
             p.mb-0 Permite a la alta gerencia poseer un mayor control sobre los recursos utilizados para el desarrollo de la actividad económica.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/6.svg', alt='')
     .row.justify-content-center.mb-5
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/7.png', alt='')
+      .col-lg-5.col-7.d-none.d-lg-block: img(src='@/assets/curso/temas/7.png', alt='').mx-auto.mb-4.mb-lg-0
       .col-lg-7
-        p.mb-4 La contabilidad de costos persigue como objetivos principales:
+        p.mb-4(data-aos='fade-right') La contabilidad de costos persigue como objetivos principales:
         
         ol.lista-ol--cuadro.lista-ol--cuadro--separador
-          li.d-flex
+          li.d-flex(data-aos='fade-left')
             .lista-ol--cuadro__vineta
               span A
             p.mb-0 Planificar y controlar las operaciones y los costos.
-          li.d-flex
+          li.d-flex(data-aos='fade-right')
             .lista-ol--cuadro__vineta
               span B
             p.mb-0 Determinación del costo unitario y su valoración (ya sea bienes o servicios).
-          li.d-flex
+          li.d-flex(data-aos='fade-left')
             .lista-ol--cuadro__vineta
               span C
             p.mb-0 Servir de herramienta administrativa para la toma de decisiones.
-          li.d-flex
+          li.d-flex(data-aos='fade-right')
             .lista-ol--cuadro__vineta
               span D
             p.mb-0 Facilitar el control, asignación y optimización de recursos.
-          li.d-flex
+          li.d-flex(data-aos='fade-left')
             .lista-ol--cuadro__vineta
               span E
             p.mb-0 Es una herramienta para la elaboración de presupuestos (Emprendefx.com,s.f.,p.).
-    p.mb-4 A continuación, se realiza una breve descripción de los objetivos:
+    p.mb-4(data-aos='fade-right') A continuación, se realiza una breve descripción de los objetivos:
     .row.justify-content-center.mb-5
-      .col-lg-3.col-7: img(src='@/assets/curso/temas/8.png', alt='')
+      .col-lg-3.col-7.d-none.d-lg-block: img(src='@/assets/curso/temas/8.png', alt='').mx-auto.mb-4.mb-lg-0
       .col-lg-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--morada")
           div(titulo="Planificar y controlar las operaciones y los costos")
-            p.mb-4 Es necesario que toda empresa cuente con un proceso de planificación, en la que se van a establecer todas las metas y objetivos que deben cumplir en diferentes periodos (corto, mediano y largo plazo).
+            p.mb-4(data-aos='fade-left') Es necesario que toda empresa cuente con un proceso de planificación, en la que se van a establecer todas las metas y objetivos que deben cumplir en diferentes periodos (corto, mediano y largo plazo).
           div(titulo="Determinar del costo unitario y su valoración")
-            p.mb-4 Algunas empresas no aplican la contabilidad de costos en la producción de sus bienes, y muchas de ellas no conocen cuánto les cuesta producir, distribuir y administrar sus productos o servicios; y, por ende, lo que logran es un fracaso silencioso.
-              br
-              br
-              |Podría decirse que el principal objetivo de la contabilidad de costos es la correcta determinación del costo unitario; ya que una vez definido este, se puede fijar un precio de venta.
-              br
-              br
-              |La determinación y valoración del costo unitario pretenden:
+            p.mb-4(data-aos='fade-right') Algunas empresas no aplican la contabilidad de costos en la producción de sus bienes, y muchas de ellas no conocen cuánto les cuesta producir, distribuir y administrar sus productos o servicios; y, por ende, lo que logran es un fracaso silencioso.
+            p(data-aos='fade-left') Podría decirse que el principal objetivo de la contabilidad de costos es la correcta determinación del costo unitario; ya que una vez definido este, se puede fijar un precio de venta.
+            p(data-aos='fade-right') La determinación y valoración del costo unitario pretenden:
             ul.lista-ul
-              li.d-flex
+              li.d-flex(data-aos='fade-left')
                 i.fas.fa-angle-right
                 p.mb-0 Conocer el costo total de producción.
-              li.d-flex
+              li.d-flex(data-aos='fade-right')
                 i.fas.fa-angle-right
                 p.mb-0 Tomar decisiones sobre comprar o fabricar un producto.
-              li.d-flex
+              li.d-flex(data-aos='fade-left')
                 i.fas.fa-angle-right
                 p.mb-0 Valuar la producción del período.
-              li.d-flex
+              li.d-flex(data-aos='fade-right')
                 i.fas.fa-angle-right
                 p.mb-0 Establecer un precio de venta determinando el margen de utilidad por cada producto.
           div(titulo="Servir de herramienta administrativa para la toma de decisiones")
-            p.mb-4 Los costos dentro de una empresa pueden influir en la toma de decisiones. La contabilidad de costos dispone los instrumentos necesarios para determinar las políticas de producto o servicio más convenientes.
+            p.mb-4(data-aos='fade-left') Los costos dentro de una empresa pueden influir en la toma de decisiones. La contabilidad de costos dispone los instrumentos necesarios para determinar las políticas de producto o servicio más convenientes.
           div(titulo="Facilitar el control, asignación y optimización de recursos")
-            p.mb-4 De acuerdo con las necesidades de producción y los recursos asignados, se realizan registros que permitan controlar y optimizar los mismos.
+            p.mb-4(data-aos='fade-right') De acuerdo con las necesidades de producción y los recursos asignados, se realizan registros que permitan controlar y optimizar los mismos.
           div(titulo="Es una herramienta para la elaboración de presupuestos")
-            p.mb-4 Para la elaboración del presupuesto de producción se requiere obtener información actualizada sobre los elementos y variables que intervienen en el proceso con el fin de proyectar conforme a las políticas empresariales (Emprendefx.com, s.f., p. 1).
+            p.mb-4(data-aos='fade-left') Para la elaboración del presupuesto de producción se requiere obtener información actualizada sobre los elementos y variables que intervienen en el proceso con el fin de proyectar conforme a las políticas empresariales (Emprendefx.com, s.f., p. 1).
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3  Diferencia entre costo de venta y costo de producción
-    p.mb-4 En este apartado se conocerá un poco más de las definiciones de los costos y, de esta manera, seguir fortaleciendo el proceso formativo.
-    TabsB.color-acento-contenido.mb-5
+    p.mb-4(data-aos='fade-left') En este apartado se conocerá un poco más de las definiciones de los costos y, de esta manera, seguir fortaleciendo el proceso formativo.
+    TabsB.color-acento-contenido
       .py-4.py-md-5(titulo="¿Qué es un costo de venta?" :icono="require('@/assets/curso/temas/icon.svg')")
-        .row.justify-content-center.mb-5.align-items-centerb
-          .col-lg-4.col-7: img(src='@/assets/curso/temas/9.png', alt='')
-          .col-lg-8
-            h4 ¿Qué es un costo de venta?
-            p.mb-0 Este se da al comercializar un bien (producto), y hace referencia al valor que se genera al comprar un producto que se espera vender; es decir, es el valor de adquisición.
-              br
-              br
-              |Cabe resaltar que, al vender el producto, los recursos obtenidos no se consideran en su totalidad ganancias para el empresario; teniendo en cuenta que se deben asumir costos y gastos para el buen funcionamiento de la empresa. Una vez se realice la depuración se obtiene la utilidad y/o ganancias de acuerdo con el margen de utilidad que se esté trabajando.
+        .p-4
+          .row.justify-content-center.mb-5.align-items-center
+            .col-lg-4.col-7(data-aos='fade-left'): img(src='@/assets/curso/temas/9.png', alt='')
+            .col-lg-8
+              h4(data-aos='fade-right') ¿Qué es un costo de venta?
+              p.mb-0(data-aos='fade-left') Este se da al comercializar un bien (producto), y hace referencia al valor que se genera al comprar un producto que se espera vender; es decir, es el valor de adquisición.
+              p(data-aos='fade-left') Cabe resaltar que, al vender el producto, los recursos obtenidos no se consideran en su totalidad ganancias para el empresario; teniendo en cuenta que se deben asumir costos y gastos para el buen funcionamiento de la empresa. Una vez se realice la depuración se obtiene la utilidad y/o ganancias de acuerdo con el margen de utilidad que se esté trabajando.
       .py-4.py-md-5(titulo=" ¿Qué es un costo de producción?" :icono="require('@/assets/curso/temas/icon.svg')")
-        .row.justify-content-center.mb-5.align-items-center
-          .col-lg-4.col-7: img(src='@/assets/curso/temas/10.png', alt='')
-          .col-lg-8
-            h4  ¿Qué es un costo de producción?
-            p.mb-0 Son los recursos necesarios para elaborar o crear un bien o un servicio. Para determinar su valor se tienen en cuenta los elementos del costo: materia prima directa, mano de obra directa y Costos Indirectos de Fabricación (CIF).
+        .p-4
+          .row
+            .col-lg-4.col-7: img(src='@/assets/curso/temas/10.png', alt='')
+            .col-lg-8
+              h4  ¿Qué es un costo de producción?
+              p.mb-0 Son los recursos necesarios para elaborar o crear un bien o un servicio. Para determinar su valor se tienen en cuenta los elementos del costo: materia prima directa, mano de obra directa y Costos Indirectos de Fabricación (CIF).
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.4  Diferencia entre costo y gasto
-    p.mb-4 Con el fin de avanzar satisfactoriamente en el proceso formativo, es importante apropiarse de los diferentes conceptos; por lo que, a continuación, se analiza la diferencia entre costo y gasto:
+    p.mb-4(data-aos='fade-left') Con el fin de avanzar satisfactoriamente en el proceso formativo, es importante apropiarse de los diferentes conceptos; por lo que, a continuación, se analiza la diferencia entre costo y gasto:
     .titulo-tres: h3 Costo
-    p.mb-4 Es el valor que se genera al producir un bien o prestar un servicio, el costo es recuperable al realizar la venta de este. Para identificar el costo es fundamental conocer el tipo de empresa, la cual puede ser comercial, industrial y de servicios; conforme a ello se identifica lo que cuesta el bien o servicio. A continuación, se observa el comparativo de cada una de estas mediante un ejemplo:
+    p.mb-4(data-aos='fade-right') Es el valor que se genera al producir un bien o prestar un servicio, el costo es recuperable al realizar la venta de este. Para identificar el costo es fundamental conocer el tipo de empresa, la cual puede ser comercial, industrial y de servicios; conforme a ello se identifica lo que cuesta el bien o servicio. A continuación, se observa el comparativo de cada una de estas mediante un ejemplo:
     TabsC.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Empresa comercial")
         .row.justify-content-center.mb-5.align-items-center
           .col-lg-5.col-7.mb-4.mb-md-0: img(src='@/assets/curso/temas/11.png', alt='')
             
           .col-lg-7
-            h4 Empresa comercial
-            p El costo en este tipo de empresa es el valor de adquisición del producto que se desea vender.
-              br
-              br
-              |#[b Ejemplo]
-              br
-              |La empresa Surtimodas S.A.S. se dedica a vender jeans. Por lo tanto, el costo del producto es el valor de la compra del jean, posteriormente se fija el precio de venta al público.
+            h4(data-aos='fade-left') Empresa comercial
+            p(data-aos='fade-right') El costo en este tipo de empresa es el valor de adquisición del producto que se desea vender.
+            p(data-aos='fade-left') #[strong Ejemplo]
+            p(data-aos='fade-right') La empresa Surtimodas S.A.S. se dedica a vender jeans. Por lo tanto, el costo del producto es el valor de la compra del jean, posteriormente se fija el precio de venta al público.
       .py-4.py-md-5(titulo="Empresa industrial")
         .row.justify-content-center.mb-5.align-items-center
           .col-lg-5.col-7.mb-4.mb-md-0: img(src='@/assets/curso/temas/12.png', alt='')
@@ -151,22 +146,11 @@
           .col-lg-7
             h4 Empresa industrial
             p Para determinar el costo en empresas manufactureras intervienen los tres elementos del costo. Materia Prima Directa (MPD), Mano de Obra Directa (MOD) y los Costos Indirectos de Fabricación (CIF).
-              br
-              br
-              |#[b Ejemplo]
-              br
-              |La empresa Fashion’s se dedica a producir jeans. Los elementos del costo son:
-              br
-              br
-
-              |#[b MPD:] tela, botones, cremalleras, hilos.
-              br
-              br
-
-              |#[b MOD:] salario de los operarios que confeccionan el jean, como lo son: cortadores, fileteadoras, hojalateros, cosedores, bordadores, etc.
-              br
-              br
-              |#[b CIF:] depreciación y mantenimiento de maquinaria y equipo, arrendamiento, seguros y servicios de la planta de producción, etc.
+            p #[strong Ejemplo]
+            p La empresa Fashion’s se dedica a producir jeans. Los elementos del costo son:
+            p #[b MPD:] tela, botones, cremalleras, hilos.
+            p #[b MOD:] salario de los operarios que confeccionan el jean, como lo son: cortadores, fileteadoras, hojalateros, cosedores, bordadores, etc.
+            p #[b CIF:] depreciación y mantenimiento de maquinaria y equipo, arrendamiento, seguros y servicios de la planta de producción, etc.
       .py-4.py-md-5(titulo="Empresa de servicios")
         .row.justify-content-center.mb-5.align-items-center
           .col-lg-5.col-7.mb-4.mb-md-0: img(src='@/assets/curso/temas/13.png', alt='')
@@ -174,11 +158,8 @@
           .col-lg-7
             h4 Empresa de servicios
             p En este tipo de empresa prima el factor intelectual y los insumos que se requieren para llevar a cabo la prestación del servicio.
-              br
-              br
-              |#[b Ejemplo]
-              br
-              |En una empresa de servicio de telefonía interviene en el costo: pago de servicios públicos de telefonía fija y celular, licencias de #[em software], salarios de los operadores, insumos de papelería, tintas.
+            p #[strong Ejemplo]
+            p En una empresa de servicio de telefonía interviene en el costo: pago de servicios públicos de telefonía fija y celular, licencias de #[em software], salarios de los operadores, insumos de papelería, tintas.
     .titulo-tres: h3 Gasto
     .row.justify-content-center.mb-5
       .col-lg-5.mb-lg-0.mb-3
@@ -197,15 +178,14 @@
     Separador
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.6  Diferencia entre contabilidad de costos y contabilidad financiera
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-5
-        .p-5.h-100(style="background-color: #FED6A8")
+        .tarjeta.p-4.h-100(style="background-color: #FED6A8", data-aos='fade-left')
           p.mb-0 La contabilidad de costos, también conocida como contabilidad analítica, es una técnica contable que tiene como finalidad crear un sistema de información que permita conocer cuál es el costo de los productos fabricados. Es un instrumento que sirve de apoyo a la contabilidad financiera, estudiando la estructura de costes en las empresas. La contabilidad de costes consiste en realizar una imputación razonable de costes directos e indirectos que permita obtener información analítica en la que apoyarse para la toma de decisiones por parte de la dirección de la empresa (Sinisterra, 2017, p. 2).
-      .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/16.png', alt='')
+      .col-lg-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/16.png', alt='', data-aos='zoom-in')
       .col-lg-3
-        .row
-          .col-lg-5.col-2: img(src='@/assets/curso/temas/17.svg', alt='')
-        p.mb-0 La contabilidad financiera es una disciplina que consiste en recopilar, ordenar y registrar la información de la actividad económica de una empresa. Es una rama del área de la contabilidad que se ocupa de sistematizar la información de las actividades y la situación económica de una empresa en un momento del tiempo y a lo largo de su desarrollo (Contabilidad financiera, 2021).
+        img(src='@/assets/curso/temas/17.svg', alt='', style="max-width: 90px;", data-aos='fade-up')
+        p.mb-0(data-aos='fade-left') La contabilidad financiera es una disciplina que consiste en recopilar, ordenar y registrar la información de la actividad económica de una empresa. Es una rama del área de la contabilidad que se ocupa de sistematizar la información de las actividades y la situación económica de una empresa en un momento del tiempo y a lo largo de su desarrollo (Contabilidad financiera, 2021).
     p.mb-4 La contabilidad financiera permite tener un registro histórico y cuantificable de las actividades que realiza una empresa y de los eventos económicos que le afectan.
     Separador
     #t_1_7.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -227,8 +207,8 @@
         img(src='@/assets/curso/temas/19.svg', alt='')
     .p-5(style="background-color: #F3F0EA").mb-5
       .row.justify-content-center.align-items-center
-        .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.svg', alt='')
-        .col-lg-10
+        .col-lg-auto.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.svg', alt='', style="max-width: 90px;")
+        .col-lg
           p.mb-0 Según la NIC 2, el costo de inventarios incluye el costo de adquisición, costos de transformación y otros costos atribuibles. Cabe resaltar que los costes de transformación de las existencias comprenderán aquellos costes directamente relacionados con las unidades producidas, tales como la mano de obra directa. También comprenderán una parte, calculada de forma sistemática, de los costes indirectos, variables o fijos, en los que se haya incurrido para transformar las materias primas en productos terminados (NIC 2, s.f., pp. 1-8).
     .titulo-tres: h3 Métodos de valoración
     p.mb-4 Dentro de los métodos de valoración de inventarios se encuentran:
@@ -239,7 +219,7 @@
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 3.
               span  Métodos de valoración NIC 2
-            img(src='@/assets/curso/temas/21.svg', alt='')
+            img(src='@/assets/curso/temas/21b.svg', alt='', style="max-width: 505px;").mx-auto
         ul.lista-ul
           li
             i.fas.fa-angle-right
@@ -247,7 +227,7 @@
           li
             i.fas.fa-angle-right
             | #[b Método Promedio Ponderado:] Hace referencia al cálculo promedio de cada uno de los artículos del inventario.
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/22.svg', alt='')
+      .col-lg-5.d-none.d-lg-block.align-self-end: img(src='@/assets/curso/temas/22.svg', alt='', style="max-width: 505px;").mx-auto
     .titulo-tres: h3 Valor neto realizable
     p.mb-4 Es el precio estimado de venta de un activo en el curso normal de la explotación, menos los costes estimados para terminar su producción y los necesarios para llevar a cabo la venta (Varón, 2017, párr. 2).
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
@@ -273,34 +253,28 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-7: img(src='@/assets/curso/temas/25.png', alt='')
       .col-lg-7
-        p.mb-0 En abril de 2001 el Consejo de Normas Internacionales de Contabilidad (Consejo) adoptó la NIC 2 Inventarios, que había sido originalmente emitida por el Comité de Normas Internacionales de Contabilidad en diciembre de 1993. La NIC 2 Inventarios reemplazó a la NIC 2 Valoración y presentación de inventarios en el contexto del sistema de costo histórico (originalmente emitida en octubre de 1975). En diciembre de 2003 el Consejo emitió una NIC 2 revisada como parte de su agenda inicial de proyectos técnicos. La NIC 2 revisada también incorporó las guías contenidas en una Interpretación relacionada (SIC-1 Uniformidad - Diferentes fórmulas para el cálculo del costo de los inventarios).
-          br
-          br
-          |Otras normas han realizado modificaciones consiguientes de menor importancia a la NIC 2. Estas incluyen la NIIF 13 Medición del valor razonable (emitida en mayo de 2011), la NIIF 9 Instrumentos financieros (contabilidad de coberturas y modificaciones a las NIIF 9, NIIF 7 y NIC 39) (emitida en noviembre de 2013), NIIF 15 Ingresos de actividades ordinarias procedentes de contratos con clientes (emitida en mayo de 2014), NIIF 9 Instrumentos financieros (emitida en julio de 2014) y NIIF 16 Arrendamientos (emitida en enero de 2016) (NIC, s.f., pp. 4-16).
+        p.mb-0(data-aos='fade-right') En abril de 2001 el Consejo de Normas Internacionales de Contabilidad (Consejo) adoptó la NIC 2 Inventarios, que había sido originalmente emitida por el Comité de Normas Internacionales de Contabilidad en diciembre de 1993. La NIC 2 Inventarios reemplazó a la NIC 2 Valoración y presentación de inventarios en el contexto del sistema de costo histórico (originalmente emitida en octubre de 1975). En diciembre de 2003 el Consejo emitió una NIC 2 revisada como parte de su agenda inicial de proyectos técnicos. La NIC 2 revisada también incorporó las guías contenidas en una Interpretación relacionada (SIC-1 Uniformidad - Diferentes fórmulas para el cálculo del costo de los inventarios).
+        p.mb-0(data-aos='fade-left') Otras normas han realizado modificaciones consiguientes de menor importancia a la NIC 2. Estas incluyen la NIIF 13 Medición del valor razonable (emitida en mayo de 2011), la NIIF 9 Instrumentos financieros (contabilidad de coberturas y modificaciones a las NIIF 9, NIIF 7 y NIC 39) (emitida en noviembre de 2013), NIIF 15 Ingresos de actividades ordinarias procedentes de contratos con clientes (emitida en mayo de 2014), NIIF 9 Instrumentos financieros (emitida en julio de 2014) y NIIF 16 Arrendamientos (emitida en enero de 2016) (NIC, s.f., pp. 4-16).
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #DDEFFD ")
+        .tarjeta.p-4.h-100(style="background-color: #DDEFFD ", data-aos='fade-right')
           p.mb-0 #[b Objetivo:] El objetivo de esta norma es prescribir el tratamiento contable de los inventarios. Un tema fundamental en la contabilidad de los inventarios es la cantidad de costo que debe reconocerse como un activo, para que sea diferido hasta que los ingresos correspondientes sean reconocidos. Esta norma suministra una guía práctica para la determinación de ese costo, así como para el subsiguiente reconocimiento como un gasto del periodo, incluyendo también cualquier deterioro que rebaje el importe en libros al valor neto realizable. También suministra directrices sobre las fórmulas del costo que se usan para atribuir costos a los inventarios (NIC, s.f., pp. 4-16).
       .col-lg-6.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #F3F0EA ")
+        .tarjeta.p-4.h-100(style="background-color: #F3F0EA ", data-aos='fade-left')
           p.mb-0 #[b Alcance:] Esta norma se aplica a todos los inventarios, excepto a: (a) [eliminado] (b) los instrumentos financieros (véanse las NIC 32 Instrumentos financieros: presentación y NIIF 9 Instrumentos financieros); y (c) los activos biológicos relacionados con la actividad agrícola y productos agrícolas en el punto de cosecha o recolección (ver la NIC 41 Agricultura).
-            br
-            br
-            |Esta norma no se aplica en la medición de los inventarios mantenidos por: a) Productores de productos agrícolas y forestales, de productos agrícolas tras la cosecha o recolección, de minerales y de productos minerales, siempre que sean medidos por su valor neto realizable, de acuerdo con prácticas bien consolidadas en esos sectores industriales.
+          p Esta norma no se aplica en la medición de los inventarios mantenidos por: a) Productores de productos agrícolas y forestales, de productos agrícolas tras la cosecha o recolección, de minerales y de productos minerales, siempre que sean medidos por su valor neto realizable, de acuerdo con prácticas bien consolidadas en esos sectores industriales.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-0 En el caso de que esos inventarios se midan al valor neto realizable, los cambios en este valor se reconocerán en el resultado del periodo en que se produzcan dichos cambios. b) Intermediarios que comercian con materias primas cotizadas, siempre que midan sus inventarios al valor razonable menos costos de venta. En el caso de que esos inventarios se lleven al valor razonable menos costos de venta, los cambios en el importe del valor razonable menos costos de venta se reconocerán en el resultado del periodo en que se produzcan dichos cambios.
-          br
-          br
-          |Los inventarios a que se ha hecho referencia se miden por su valor neto realizable en ciertas fases de la producción. Ello ocurre, por ejemplo, cuando se han recogido las cosechas agrícolas o se han extraído los minerales, siempre que su venta esté asegurada por un contrato a plazo sea cual fuere su tipo o garantizada por el gobierno, o bien cuando existe un mercado activo y el riesgo de fracasar en la venta sea mínimo. Esos inventarios 1. 2. 3. 4. NIC 2 A1062 © IFRS Foundation se excluyen únicamente de los requerimientos de medición establecidos en esta Norma.
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/26.png', alt='')
+        p.mb-0(data-aos='fade-right') En el caso de que esos inventarios se midan al valor neto realizable, los cambios en este valor se reconocerán en el resultado del periodo en que se produzcan dichos cambios. b) Intermediarios que comercian con materias primas cotizadas, siempre que midan sus inventarios al valor razonable menos costos de venta. En el caso de que esos inventarios se lleven al valor razonable menos costos de venta, los cambios en el importe del valor razonable menos costos de venta se reconocerán en el resultado del periodo en que se produzcan dichos cambios.
+        p.mb-0(data-aos='fade-left') Los inventarios a que se ha hecho referencia se miden por su valor neto realizable en ciertas fases de la producción. Ello ocurre, por ejemplo, cuando se han recogido las cosechas agrícolas o se han extraído los minerales, siempre que su venta esté asegurada por un contrato a plazo sea cual fuere su tipo o garantizada por el gobierno, o bien cuando existe un mercado activo y el riesgo de fracasar en la venta sea mínimo. Esos inventarios 1. 2. 3. 4. NIC 2 A1062 © IFRS Foundation se excluyen únicamente de los requerimientos de medición establecidos en esta Norma.
+      .col-lg-5.col-7: img(src='@/assets/curso/temas/26.png', alt='', data-aos='zoom-in')
     div(style="background-color: #E6DCFB ").mb-5
       .row.justify-content-center.mb-0
-        .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/27.png', alt='')
+        .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/27.png', alt='', data-aos='zoom-in')
         .col-lg-7
           .p-4.d-flex.align-items-center
-            p.mb-0 Los intermediarios que comercian son aquellos que compran o venden materias primas cotizadas por cuenta propia, o bien por cuenta de terceros. Los inventarios a que se ha hecho referencia en el apartado b se adquieren, principalmente, con el propósito de venderlos en un futuro próximo, y generar ganancias procedentes de las fluctuaciones en el precio, o un margen de comercialización. Cuando esos inventarios se contabilicen por su valor razonable menos los costos de venta quedarán excluidos únicamente de los requerimientos de medición establecidos en esta Norma (NIC, s.f., pp. 4-16).
+            p.mb-0(data-aos='fade-right') Los intermediarios que comercian son aquellos que compran o venden materias primas cotizadas por cuenta propia, o bien por cuenta de terceros. Los inventarios a que se ha hecho referencia en el apartado b se adquieren, principalmente, con el propósito de venderlos en un futuro próximo, y generar ganancias procedentes de las fluctuaciones en el precio, o un margen de comercialización. Cuando esos inventarios se contabilicen por su valor razonable menos los costos de venta quedarán excluidos únicamente de los requerimientos de medición establecidos en esta Norma (NIC, s.f., pp. 4-16).
     .tarjeta.color-primario.p-3.mb-5(style="background-color:#412976 ").px-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -317,36 +291,36 @@
     Separador
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.8  Elementos de costo
-    p.mb-4 Los elementos de costo de producción intervienen en una empresa industrial o manufacturera que se encarga de transformar materia prima en productos terminados. La sumatoria de los conceptos de MPD; MOD y CIF es lo que se considera como costo de producción.
-    .p-5(style="background-color: #BCE0FC").mb-4 
+    p.mb-4(data-aos='fade-right') Los elementos de costo de producción intervienen en una empresa industrial o manufacturera que se encarga de transformar materia prima en productos terminados. La sumatoria de los conceptos de MPD; MOD y CIF es lo que se considera como costo de producción.
+    .tarjeta.p-4(style="background-color: #BCE0FC").mb-4 
       .row.justify-content-center.align-items-center
-        .col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/28.svg', alt='')
-        .col-lg-10
+        .col-lg-auto.mb-lg-0.mb-3: img(src='@/assets/curso/temas/28.svg', alt='', style="max-width: 95px;")
+        .col-lg
           p.mb-0 La fabricación de artículos o productos acabados requiere de la intervención de ciertos factores, elementos importantes que expresan el costo de producción de estos. Una industria de transformación incurre en costos como son: consumo de materias primas y/o materiales directos, uso de la mano y la inteligencia del hombre (físico-mental), y una serie de costos adicionales que son imprescindibles para la conclusión de una obra, entre otros se menciona: uso de maquinaria, equipos, herramientas, espacios físicos, etc., con los que es posible llevar a cabo el proceso de transformación (Solo contabilidad, s.f., p. 1).
     p.mb-4 En consecuencia, el costo de producción de modo general está formado por tres elementos:
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #E2DACC")
+        .tarjeta.p-4.h-100(style="background-color: #E2DACC", data-aos='fade-right')
           .row.justify-content-center.mb-2
             .col-4: img(src='@/assets/curso/temas/29.svg', alt='')
           .text-center
             h4 Materia prima y/o material directo
             p.mb-0 Para ser considerado materiales directos debe ser de fácil identificación en cada unidad de producto.
       .col-lg-4.col-7.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #E2DACC")
+        .tarjeta.p-4.h-100(style="background-color: #E2DACC", data-aos='flip-up')
           .row.justify-content-center.mb-2
             .col-4: img(src='@/assets/curso/temas/29.svg', alt='')
           .text-center
             h4 Sueldos y salarios y/o obra de mano
             p.mb-0 Se refiere a los salarios de los trabajadores por la transformación de los materiales en productos acabados.
       .col-lg-4.col-7.mb-lg-0.mb-3
-        .tarjeta.p-4.h-100(style="background-color: #E2DACC")
+        .tarjeta.p-4.h-100(style="background-color: #E2DACC", data-aos='fade-left')
           .row.justify-content-center.mb-2
             .col-4: img(src='@/assets/curso/temas/29.svg', alt='')
           .text-center
             h4 Gastos indirectos de producción
             p.mb-0 Considerados como el tercer elemento del costo, son los que no se identifican fácilmente en un producto (Solo contabilidad, s.f., p. 1).
-    p.mb-4 Ahora, se presenta el ejemplo de una empresa manufacturera para su respectivo análisis:
+    p.mb-4(data-aos='fade-right') Ahora, se presenta el ejemplo de una empresa manufacturera para su respectivo análisis:
     .row.justify-content-center.mb-5
       .col-lg-10
         .p-4(style="background-color: #F2ECFD ")
