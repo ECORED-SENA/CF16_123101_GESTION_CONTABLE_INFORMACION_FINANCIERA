@@ -427,39 +427,39 @@
           tbody
             tr
               td Salud
-              td 8.5%
-              td 4%
-              td 12.5%
+              td 8.5 %
+              td 4 %
+              td 12.5 %
             tr(style="background-color: #FEEAD4;")
               td Pensión
-              td 12%
-              td 4%
-              td 16%
+              td 12 %
+              td 4 %
+              td 16 %
             tr
               td *ARL
-              td 0.522%
-              td 0%
-              td 0.522%
+              td 0.522 %
+              td 0 %
+              td 0.522 %
             tr(style="background-color: #FEEAD4;")
               td **Fondo de solidaridad
-              td 0%
-              td 1%
-              td 1%
+              td 0 %
+              td 1 %
+              td 1 %
             tr
               td Caja de compensación
-              td 4%
-              td 0%
-              td 4%
+              td 4 %
+              td 0 %
+              td 4 %
             tr(style="background-color: #FEEAD4;")
               td ICBF
-              td 3%
-              td 0%
-              td 3%
+              td 3 %
+              td 0 %
+              td 3 %
             tr
               td SENA
-              td 2%
-              td 0%
-              td 2%  
+              td 2 %
+              td 0 %
+              td 2 %  
     .row.justify-content-center.mb-5
       .col-lg-8
         LineaTiempoD.color-acento-contenido
@@ -467,9 +467,7 @@
             p.mb-4 La cotización de ARL varía según el riesgo a que se exponga cada trabajador y es pagada en su totalidad por el empleador. Los aportes varían entre un 0,348% para el nivel I y 8,7% para el nivel V de riesgo. La tarifa más común es del 0,522%.
           div(numero="2" titulo="Fondo de solidaridad")
             p.mb-4 Los trabajadores con sueldos entre 4 y 16 salarios mínimos deben realizar un aporte adicional del 1%.
-              br
-              br
-              |Los trabajadores que devenguen mensualmente 16 salarios mínimos o más, adicional al 1%, deben hacer un aporte adicional del 0,2% por cada sueldo mínimo adicional que devenguen hasta los 20 salarios mínimos
+            p Los trabajadores que devenguen mensualmente 16 salarios mínimos o más, adicional al 1%, deben hacer un aporte adicional del 0,2% por cada sueldo mínimo adicional que devenguen hasta los 20 salarios mínimos
           div(numero="3" titulo="Prestaciones sociales")
             p.mb-4 Es el conjunto de beneficios adicionales al salario que la ley ha otorgado a los trabajadores con el fin de contribuir a su bienestar; constituyen un gasto de los empleadores, quienes deben causarse o reconocerlos con cargo a los gastos por prestaciones sociales que adeudan a los trabajadores y constituir las provisiones sobre su nómina mensual. 
           div(numero="4" titulo="Cesantías")
@@ -598,24 +596,24 @@
                   ul.lista-ul
                     li.d-flex
                       i.fas.fa-angle-right
-                      p.mb-0 SENA 2% (revisar exoneración).
+                      p.mb-0 SENA 2 % (revisar exoneración).
                     li.d-flex
                       i.fas.fa-angle-right
-                      p.mb-0 ICBF 3% (revisar exoneración).
+                      p.mb-0 ICBF 3 % (revisar exoneración).
                     li.d-flex
                       i.fas.fa-angle-right
-                      p.mb-0 Caja de compensación 4%.
+                      p.mb-0 Caja de compensación 4 %.
                 .col-lg-6
                   ul.lista-ul
                     li.d-flex
                       i.fas.fa-angle-right
-                      p.mb-0 Salud 8,5% (revisar exoneración).
+                      p.mb-0 Salud 8,5 % (revisar exoneración).
                     li.d-flex
                       i.fas.fa-angle-right
                       p.mb-0 ARL (según riesgo de cada trabajador).
                     li.d-flex
                       i.fas.fa-angle-right
-                      p.mb-0 Pensión 12%.
+                      p.mb-0 Pensión 12 %.
             .col-lg-4.col-7: img(src='@/assets/curso/temas/65.svg', alt='')
           .row.justify-content-center
             .col-lg-8.mb-lg-0.mb-3
@@ -624,16 +622,16 @@
               ul.lista-ul
                 li.d-flex
                   i.fas.fa-angle-right
-                  p.mb-0 Cesantías = Total devengado x 8,33%.
+                  p.mb-0 Cesantías = Total devengado x 8,33 %.
                 li.d-flex
                   i.fas.fa-angle-right
-                  p.mb-0 Intereses sobre cesantías = Total devengado x 1%.
+                  p.mb-0 Intereses sobre cesantías = Total devengado x 1 %.
                 li.d-flex
                   i.fas.fa-angle-right
-                  p.mb-0 Prima de servicios = Total devengado x 8,33%.
+                  p.mb-0 Prima de servicios = Total devengado x 8,33 %.
                 li.d-flex
                   i.fas.fa-angle-right
-                  p.mb-0 Vacaciones = Total devengado x 4,17%.
+                  p.mb-0 Vacaciones = Total devengado x 4,17 %.
             .col-lg-4.col-7: img(src='@/assets/curso/temas/65.svg', alt='')
     p.mb-4 A continuación, se refleja la contabilización de la nómina de producción:
     .row.justify-content-center.mb-5
@@ -654,97 +652,97 @@
                 tr
                   td 720506
                   td Sueldos
-                  td $328.116,00
+                  td.text-right $328.116,00
                   td
                 tr(style="background-color: #fdecd8;")
                   td 720527
                   td Auxilio de transporte
-                  td $91.032,00
+                  td.text-right $91.032,00
                   td
                 tr
                   td 720530
                   td Cesantías
-                  td $76.565,00
+                  td.text-right $76.565,00
                   td
                 tr(style="background-color: #fdecd8;")
                   td 720533
                   td Intereses de cesantías
-                  td $9.187,00
+                  td.text-right $9.187,00
                   td
                 tr
                   td 720536
                   td Prima de servicios
-                  td $76.565,00
+                  td.text-right $76.565,00
                   td
                 tr(style="background-color: #fdecd8;")
                   td 720539
                   td Vacaciones
-                  td $34.532,00
+                  td.text-right $34.532,00
                   td
                 tr
                   td 720568
                   td Aportes a administradores de riesgos profesionales
-                  td $4.322,00
+                  td.text-right $4.322,00
                   td
                 tr(style="background-color: #fdecd8;")
                   td 720570
                   td Aportes de fondos de pensiones
-                  td $99.373,00
+                  td.text-right $99.373,00
                   td
                 tr
                   td 720572
                   td Aportes cajas de compensación familiar
-                  td $33.124,00
+                  td.text-right $33.124,00
                   td
                 tr(style="background-color: #fdecd8;")
                   td 237005
                   td Aportes a entidades promotoras de salud EPS
                   td
-                  td $33.124,00
+                  td.text-right $33.124,00
                 tr
                   td 237006
                   td Aportes a administradores de riesgos profesionales
                   td
-                  td $4.322,00
+                  td.text-right $4.322,00
                 tr(style="background-color: #fdecd8;")
                   td 237010
                   td Aportes al I.C.B.F, SENA y cajas de compensación
                   td
-                  td $33.124,00
+                  td.text-right $33.124,00
                 tr
                   td 238030
                   td Fondos de cesantías y/o pensiones
                   td
-                  td $132.498,00
+                  td.text-right $132.498,00
                 tr(style="background-color: #fdecd8;")
                   td 261005
                   td Cesantías
                   td
-                  td $76.565,00
+                  td.text-right $76.565,00
                 tr
                   td 261010
                   td Intereses sobre cesantías
                   td
-                  td $9.187,00
+                  td.text-right $9.187,00
                 tr(style="background-color: #fdecd8;")
                   td 261015
                   td Vacaciones
                   td
-                  td $34.532,00
+                  td.text-right $34.532,00
                 tr
                   td 261020
                   td Prima de servicios
                   td
-                  td $76.565,00
+                  td.text-right $76.565,00
                 tr(style="background-color: #fdecd8;")
                   td 250501
                   td Empleados
                   td
-                  td $852.899,00
+                  td.text-right $852.899,00
                 tr(style="font-weight: bold; background-color: #fff3e6;")
                   td(colspan="2") Sumas iguales
-                  td $1.252.816,00
-                  td $1.252.816,00
+                  td.text-right $1.252.816,00
+                  td.text-right $1.252.816,00
     .p-5(style="background-color: #EDF7FE").mb-5
       p.mb-0 Es importante explorar las páginas sugeridas y la biblioteca SENA para ampliar los conocimientos en cuanto al tema.
           
