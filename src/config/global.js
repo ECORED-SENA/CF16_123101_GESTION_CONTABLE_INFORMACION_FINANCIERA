@@ -122,6 +122,18 @@ export default {
     ],
     subMenu: [
       {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -299,8 +311,9 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'Contabilidad de costos con aproximación a las normas internacionales - Sinisterra, G. (2017). Contabilidad de costos con aproximación a las normas internacionales. (2a. ed.) Ecoe Ediciones.',
+      tema: 'Costos',
+      referencia:
+        'Contabilidad de costos con aproximación a las normas internacionales -<br> Sinisterra, G. (2017). Contabilidad de costos con aproximación a las normas internacionales. (2a. ed.) Ecoe Ediciones.',
       tipo: 'Libro',
       link:
         'https://login.bdigital.sena.edu.co/login?url=http://www.ebooks7-24.com/?il=5713',

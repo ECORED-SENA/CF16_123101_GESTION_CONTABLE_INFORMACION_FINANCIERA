@@ -37,7 +37,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/46.svg', alt='')
       .col-lg-8
-        p.mb-0 Según la Norma Internacional de Contabilidad (NIC 19), se definen los beneficios a los empleados, así:
+        p.mb-4 Según la Norma Internacional de Contabilidad (NIC 19), se definen los beneficios a los empleados, así:
         ul.lista-ul
           li.d-flex
             i.fas.fa-angle-right
@@ -47,10 +47,10 @@
             p.mb-0 Beneficios a los empleados a corto plazo, son beneficios a los empleados (diferentes de las indemnizaciones por cese) que se espera liquidar totalmente antes de los doce meses siguientes al final del periodo anual sobre el que se informa, en el que los empleados hayan prestado los servicios relacionados.
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Beneficios post-empleo son beneficios a los empleados (diferentes de las indemnizaciones por cese y beneficios a los empleados a corto plazo) que se pagan después de completar su periodo de empleo.
+            p.mb-0 Beneficios #[em post]-empleo son beneficios a los empleados (diferentes de las indemnizaciones por cese y beneficios a los empleados a corto plazo) que se pagan después de completar su periodo de empleo.
           li.d-flex
             i.fas.fa-angle-right
-            p.mb-0 Otros beneficios a los empleados a largo plazo son todos los beneficios a los empleados diferentes de los beneficios a los empleados a corto plazo, beneficios posteriores al periodo de empleo e indemnizaciones por cese
+            p.mb-0 Otros beneficios a los empleados a largo plazo son todos los beneficios a los empleados diferentes de los beneficios a los empleados a corto plazo, beneficios posteriores al periodo de empleo e indemnizaciones por cese.
     p.mb-4 Los beneficios a los empleados comprenden:
     .row.justify-content-center.mb-5
       .col-lg-9.mb-lg-0.mb-3
@@ -70,7 +70,7 @@
               li.d-flex
                 i.fas.fa-angle-right
                 p.mb-0 Beneficios no monetarios a los empleados actuales (tales como atenciones médicas, alojamiento, automóviles y entrega de bienes y servicios gratuitos o parcialmente subvencionados).
-          div(titulo="Beneficios post-empleo")
+          div(titulo="Beneficios <em>post</em>-empleo")
             p.mb-4 Tales como los siguientes:
             ul.lista-ul
               li.d-flex
@@ -78,19 +78,19 @@
                 p.mb-0 Beneficios por retiro (por ejemplo, pensiones y pagos únicos por retiro); y
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Otros beneficios post-empleo, tales como los seguros de vida y los beneficios de atención médica posteriores al empleo
+                p.mb-0 Otros beneficios #[em post]-empleo, tales como los seguros de vida y los beneficios de atención médica posteriores al empleo
           div(titulo="Otros beneficios a los empleados a largo plazo")
             p.mb-4 Tales como los siguientes:
             ul.lista-ul
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Las ausencias retribuidas a largo plazo, tales como vacaciones tras largos periodos de servicio o años sabáticos;
+                p.mb-0 Las ausencias retribuidas a largo plazo, tales como vacaciones tras largos periodos de servicio o años sabáticos.
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Los premios de antigüedad u otros beneficios por largo tiempo de servicio;
+                p.mb-0 Los premios de antigüedad u otros beneficios por largo tiempo de servicio.
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Los beneficios por invalidez permanente;
+                p.mb-0 Los beneficios por invalidez permanente.
               li.d-flex
                 i.fas.fa-angle-right
                 p.mb-0 Beneficios por terminación. Norma Internacional de Contabilidad (NIC 19, s.f., p.1-46).
@@ -101,14 +101,14 @@
           p.mb-4 Con el fin de profundizar sobre la Norma Internacional (NIC) 19, se sugiere explorar los siguientes recursos.
           .row.justify-content-center
             .col-lg-6.mb-lg-0.mb-3
-              a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('downloads/19_NIC_1.pdf')" target="_blank")
                 .row.justify-content-around.align-items-center
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
                     p Anexo. Norma internacional de Contabilidad 19
             .col-lg-6.mb-lg-0.mb-3
-              a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('downloads/19_NIC_2.pdf')" target="_blank")
                 .row.justify-content-around.align-items-center
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
@@ -170,18 +170,26 @@
                   p.mb-0 Lugar de emisión y firma del empleador si hay lugar a esta.
             .col-lg-4.col-7: img(src='@/assets/curso/temas/48.svg', alt='')
     .titulo-tres: h3 Devengado
-    .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 El devengado es el valor total de ingresos que obtiene un empleado en un periodo de tiempo determinado. El devengo está compuesto por el salario básico, horas extras, recargos diurnos y nocturnos, dominicales, festivos, comisiones, auxilio de transporte, entre otras (Gerencie, 2017).
-          br
-          br
-          |El artículo 127 del Código Sustantivo del Trabajo expresa:
-        .p-5(style="background-color: #FED5A7")
-          .row.justify-content-center.align-items-center
-            .col-lg-3.col-2.mb-lg-0.mb-3: img(src='@/assets/curso/temas/49.svg', alt='')
-            .col-lg-9
+
+    .row.mb-5.align-items-center
+      .col-lg-7
+        p(data-aos="fade-left").mb-4 El devengado es el valor total de ingresos que obtiene un empleado en un periodo de tiempo determinado. El devengo está compuesto por el salario básico, horas extras, recargos diurnos y nocturnos, dominicales, festivos, comisiones, auxilio de transporte, entre otras (Gerencie, 2017).
+    
+        p(data-aos="fade-left").mb-4 El artículo 127 del Código Sustantivo del Trabajo expresa:
+    
+        .bg-color(style="background-color: #FED5A7").p-4(data-aos="fade-left").mb-4.tarjeta
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/temas/49.svg", style="max-width: 90px").mx-auto
+            .col-lg
               p.mb-0 Constituye salario no sólo la remuneración ordinaria, fija o variable, sino todo lo que recibe el trabajador en dinero o en especie como contraprestación directa del servicio, sea cualquiera la forma o denominación que se adopte, como primas, sobresueldos, bonificaciones habituales, valor del trabajo suplementario o de las horas extras, valor del trabajo en días de descanso obligatorio, porcentajes sobre ventas y comisiones (Gerencie, 2020).
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/70.png', alt='')
+    
+    
+      .col-lg-5
+        figure
+          img(src="@/assets/curso/temas/70.png", data-aos="zoom-in")
+    
+
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3
         .tarjeta.p-4.h-100.card-hover
@@ -234,64 +242,29 @@
             p.mb-0 Es la manera para cuantificar las horas de intervención de personas en un proceso y permite establecer el costo de mano de obra directa de un proceso; también es útil para determinar la eficiencia.
     .titulo-tres: h3 Remuneración trabajo ordinario y suplementario
     p.mb-4 Según la jornada laboral acordada entre las partes y la efectivamente desarrollada, se puede presentar trabajo suplementario relacionado a continuación:
-    .tarjeta.p-4(style="background-color:#F9F7F4 ").mb-5
-      LineaTiempoE.color-acento-contenido.mb-5
-        .row(titulo="")
-          .col-lg-2.mb-3.mb-lg-0
-            figure
-              img.img200(src='@/assets/curso/temas/50.svg', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
-            h4 Hora extraordinaria diurna “HEOD”
-            p La hora extra diurna es la que se labora luego de la jornada laboral, y entre las 6 de la mañana y las 9 de la noche.
-        .row(titulo="")
-          .col-lg-2.mb-3.mb-lg-0
-            figure
-              img.img200(src='@/assets/curso/temas/51.svg', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
-            h4 Hora extraordinaria nocturna “HEON”
-            p La hora extra nocturna es la que se labora luego de la jornada laboral, y entre las 9 de la noche y las 6 de la mañana.
-        .row(titulo="")
-          .col-lg-2.mb-3.mb-lg-0
-            figure
-              img.img200(src='@/assets/curso/temas/52.svg', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
-            h4 Hora dominical y festivo diurna
-            p Se presenta durante la jornada ordinaria que se labora el domingo o festivo y entre las 6 de la mañana y las 9 de la noche.
-        .row(titulo="")
-          .col-lg-2.mb-3.mb-lg-0
-            figure
-              img.img200(src='@/assets/curso/temas/53.svg', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
-            h4 Hora dominical y festivo nocturna
-            p Se presenta durante la jornada ordinaria que se labora el domingo o festivo, entre las 9 de la noche y las 6 de la mañana.
-        .row(titulo="")
-          .col-lg-2.mb-3.mb-lg-0
-            figure
-              img.img200(src='@/assets/curso/temas/54.svg', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
-            h4 Hora extra dominical diurna “HEDD”
-            p La hora extra dominical diurna es la que se labora luego de la jornada laboral, y entre las 6 de la mañana y las 9 de la noche; siempre y cuando se trabaje en un domingo o festivo y, se trabajen más de 8 horas diarias si esa es la jornada ordinaria.
-        .row(titulo="")
-          .col-lg-2.mb-3.mb-lg-0
-            figure
-              img.img200(src='@/assets/curso/temas/55.svg', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
-            h4 Hora extra-dominical nocturna “HEDN”
-            p La hora extra dominical nocturna es la que se labora luego de la jornada laboral, entre las 9 de la noche y las 6 de la mañana, cuando se labora domingo o festivo.
-        .row(titulo="")
-          .col-lg-2.mb-3.mb-lg-0
-            figure
-              img.img200(src='@/assets/curso/temas/56.svg', alt='Texto que describa la imagen')
-          .col-lg-10.mb-4.mb-lg-0
-            h4 Recargo nocturno
-            p El numeral 1 del artículo 168 del Código Sustantivo del Trabajo señala que el trabajo nocturno se remunera con un recargo del 35%.
+
+
+    
+    .tarjeta.px-4.py-5(style="background-color:#F9F7F4 ").mb-5
+      .timeline-vertical
+        .timeline-item(v-for="(item, i) in timelineItems" :key="i")
+          .timeline-icon
+            img(:src="require(`@/assets/curso/temas/${item.icon}`)", alt="").mx-auto
+          .timeline-dot(v-if="i !== timelineItems.length - 1")
+          .timeline-content
+            h4 {{ item.title }}
+            p {{ item.desc }}
     .row.justify-content-center.mb-5
-      .col-lg-7
+      .col-lg-9
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 2.
           span Factores y porcentajes de recargo por clase de trabajo suplementario y recargos en Colombia    
         .tabla-a.color-acento-botones.mb-5
-          table
+          table#tabla-2
+            colgroup
+              col(style="width: 40%")
+              col(style="width: 30%")
+              col(style="width: 30%")
             caption Fuente: Arts. 168 y 179 CST
             thead.border-0(style="background-color: #FD9826")
               th Clase de trabajo
@@ -299,31 +272,31 @@
               th Factor
             tbody
               tr
-                td Extra diurno ordinario
+                td.text-left Extra diurno ordinario
                 td 25
                 td 1.25
               tr(style="background-color: #fdecd8;")
-                td Extra nocturno ordinario
+                td.text-left Extra nocturno ordinario
                 td 75
                 td 1.75
               tr
-                td Dominical y festivo
+                td.text-left Dominical y festivo
                 td 75
                 td 1.75
               tr(style="background-color: #fdecd8;")
-                td Dominical y festivo nocturno
+                td.text-left Dominical y festivo nocturno
                 td 110
                 td 2.10
               tr
-                td Extra diurno festivo
+                td.text-left Extra diurno festivo
                 td 100
                 td 2.00
               tr(style="background-color: #fdecd8;")
-                td Extra nocturno festivo
+                td.text-left Extra nocturno festivo
                 td 150
                 td 2.50
               tr
-                td Recargo nocturno
+                td.text-left Recargo nocturno
                 td 35
                 td 0.35    
     .row.justify-content-center.mb-5
@@ -331,7 +304,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 4.
           span Flujo de la distribución de la nómina de fábrica
-        img.mb-3(src='@/assets/curso/temas/57.svg', alt='Texto que describa la imagen')
+        img.mb-3(src='@/assets/curso/temas/57.svg', alt='Diagrama de flujo que detalla el proceso para calcular el costo de la mano de obra directa e indirecta, incluyendo salario base, días trabajados, deducciones, tipos de trabajadores, exclusiones, y prestaciones sociales.')
         figcaption Tomada de Sinisterra (2017).
     .titulo-tres: h3 Deducciones
     .row.justify-content-center.mb-5
@@ -344,10 +317,10 @@
             ul.lista-ul
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Aportes a salud 4%.
+                p.mb-0 Aportes a salud 4 %.
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 Aportes a pensión 4%.
+                p.mb-0 Aportes a pensión 4 %.
               li.d-flex
                 i.fas.fa-angle-right
                 p.mb-0 Aportes a fondo de solidaridad pensional, el porcentaje depende del valor devengado y comienza desde 1% para los trabajadores que devenguen en el periodo cuatro o más salarios mínimos legales vigentes.
@@ -379,10 +352,10 @@
         .row.justify-content-center.mb-0
           .col-2
             figure
-              img(src='@/assets/curso/temas/59.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/59.svg', alt='')
           .col-10
             .p-1.d-inline-block(style="background-color:#FD9826 ").mb-3
-              h5.mb-0 Seguridad Social.
+              h5.mb-0 Seguridad Social
             p.text-white Es el derecho que tiene toda persona natural, y en especial todo trabajador, a que se le garantice la seguridad social integral, entendida ésta como la cobertura en salud, riesgos de invalidez, vejez y muerte, igualmente cobertura en accidentes de trabajo (Gerencie, 2018).
         h2.text-center
         p
@@ -390,10 +363,10 @@
         .row.justify-content-center.mb-0
           .col-2
             figure
-              img(src='@/assets/curso/temas/60.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/60.svg', alt='')
           .col-10
             .p-1.d-inline-block(style="background-color:#FD9826 ").mb-3
-              h5.mb-0 Parafiscales.
+              h5.mb-0 Parafiscales
             p Son los pagos que las entidades o empresas y personas naturales realizan a: Servicio Nacional de Aprendizaje SENA, Instituto Colombiano de Bienestar Familiar ICBF y Caja de Compensación Familiar CCF con el propósito de financiar actividades sociales que presta el estado por intermedio de estas entidades.
     .row.justify-content-center.mb-3
       .col-lg-10
@@ -411,69 +384,74 @@
       br
       |Aportes a la seguridad social y parafiscales:
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-9
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 3.
           span Distribución porcentual de aportes a la seguridad social y parafiscales en Colombia
-    .tabla-a.color-acento-botones.mb-5
-        table
-          caption Fuente: Arts. 168 y 179 CST
-          thead.border-0
-            tr(style="background-color: #f58221")
-              th Tipo de entidad
-              th % Aporte empleador
-              th % Aporte empleado
-              th % Total aporte
-          tbody
-            tr
-              td Salud
-              td 8.5 %
-              td 4 %
-              td 12.5 %
-            tr(style="background-color: #FEEAD4;")
-              td Pensión
-              td 12 %
-              td 4 %
-              td 16 %
-            tr
-              td *ARL
-              td 0.522 %
-              td 0 %
-              td 0.522 %
-            tr(style="background-color: #FEEAD4;")
-              td **Fondo de solidaridad
-              td 0 %
-              td 1 %
-              td 1 %
-            tr
-              td Caja de compensación
-              td 4 %
-              td 0 %
-              td 4 %
-            tr(style="background-color: #FEEAD4;")
-              td ICBF
-              td 3 %
-              td 0 %
-              td 3 %
-            tr
-              td SENA
-              td 2 %
-              td 0 %
-              td 2 %  
+        .tabla-a.color-acento-botones.mb-5
+          table#tabla-3
+            colgroup
+              col(style="width: 25%")
+              col(style="width: 25%")
+              col(style="width: 25%")
+              col(style="width: 25%")
+            caption Fuente: Arts. 168 y 179 CST
+            thead.border-0
+              tr(style="background-color: #f58221")
+                th Tipo de entidad
+                th % Aporte empleador
+                th % Aporte empleado
+                th % Total aporte
+            tbody
+              tr
+                td.text-left Salud
+                td 8.5 %
+                td 4 %
+                td 12.5 %
+              tr(style="background-color: #FEEAD4;")
+                td.text-left Pensión
+                td 12 %
+                td 4 %
+                td 16 %
+              tr
+                td.text-left *ARL
+                td 0.522 %
+                td 0 %
+                td 0.522 %
+              tr(style="background-color: #FEEAD4;")
+                td.text-left **Fondo de solidaridad
+                td 0 %
+                td 1 %
+                td 1 %
+              tr
+                td.text-left Caja de compensación
+                td 4 %
+                td 0 %
+                td 4 %
+              tr(style="background-color: #FEEAD4;")
+                td.text-left ICBF
+                td 3 %
+                td 0 %
+                td 3 %
+              tr
+                td.text-left SENA
+                td 2 %
+                td 0 %
+                td 2 %  
     .row.justify-content-center.mb-5
       .col-lg-8
         LineaTiempoD.color-acento-contenido
           div(numero="1" titulo="ARL")
-            p.mb-4 La cotización de ARL varía según el riesgo a que se exponga cada trabajador y es pagada en su totalidad por el empleador. Los aportes varían entre un 0,348% para el nivel I y 8,7% para el nivel V de riesgo. La tarifa más común es del 0,522%.
+            p.mb-4 La cotización de ARL varía según el riesgo a que se exponga cada trabajador y es pagada en su totalidad por el empleador. Los aportes varían entre un 0,348 % para el nivel I y 8,7 % para el nivel V de riesgo. La tarifa más común es del 0,522 %.
           div(numero="2" titulo="Fondo de solidaridad")
-            p.mb-4 Los trabajadores con sueldos entre 4 y 16 salarios mínimos deben realizar un aporte adicional del 1%.
-            p Los trabajadores que devenguen mensualmente 16 salarios mínimos o más, adicional al 1%, deben hacer un aporte adicional del 0,2% por cada sueldo mínimo adicional que devenguen hasta los 20 salarios mínimos
+            p.mb-4 Los trabajadores con sueldos entre 4 y 16 salarios mínimos deben realizar un aporte adicional del 1 %.
+            p Los trabajadores que devenguen mensualmente 16 salarios mínimos o más, adicional al 1 %, deben hacer un aporte adicional del 0,2 % por cada sueldo mínimo adicional que devenguen hasta los 20 salarios mínimos
           div(numero="3" titulo="Prestaciones sociales")
             p.mb-4 Es el conjunto de beneficios adicionales al salario que la ley ha otorgado a los trabajadores con el fin de contribuir a su bienestar; constituyen un gasto de los empleadores, quienes deben causarse o reconocerlos con cargo a los gastos por prestaciones sociales que adeudan a los trabajadores y constituir las provisiones sobre su nómina mensual. 
           div(numero="4" titulo="Cesantías")
-            p.mb-4 Corresponden a 30 días por año trabajado; se deben liquidar al final de cada año o al finalizar el contrato de trabajo. El valor liquidado se debe consignar en el fondo de cesantías que el empleado haya elegido, y en el caso de terminación del contrato de trabajo, el valor liquidado se paga directamente al trabajado 
+            p.mb-4 Corresponden a 30 días por año trabajado; se deben liquidar al final de cada año o al finalizar el contrato de trabajo. El valor liquidado se debe consignar en el fondo de cesantías que el empleado haya elegido, y en el caso de terminación del contrato de trabajo, el valor liquidado se paga directamente al trabajado.
           div(numero="5" titulo="Intereses sobre cesantías")
-            p.mb-4 El empleador debe pagar a sus empleados intereses sobre las cesantías que tenga acumuladas a 31 de diciembre, a una tasa del 12% anual. 
+            p.mb-4 El empleador debe pagar a sus empleados intereses sobre las cesantías que tenga acumuladas a 31 de diciembre, a una tasa del 12 % anual. 
           div(numero="6" titulo="Prima de servicios")
             p.mb-4 Corresponde a 30 días por año trabajado; se debe pagar en dos cuotas en el año; la primera a más tardar el último día del mes de junio y la segunda durante los primeros 20 días del mes de diciembre.
           div(numero="7" titulo="Vacaciones")
@@ -571,10 +549,10 @@
               ul.lista-ul
                 li.d-flex
                   i.fas.fa-angle-right
-                  p.mb-0 Salud = Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4% 2020).
+                  p.mb-0 Salud = Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4 % 2020).
                 li.d-flex
                   i.fas.fa-angle-right
-                  p.mb-0 Pensión = Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4% 2020).
+                  p.mb-0 Pensión = Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador (4 % 2020).
                 li.d-flex
                   i.fas.fa-angle-right
                   p.mb-0 Fondo de solidaridad pensional = Ingreso base de cotización “IBC” (total devengado menos auxilio de transporte) multiplicado por porcentaje vigente para el trabajador, a partir de 4 salarios mínimos vigentes.
@@ -640,7 +618,12 @@
           h5 Tabla 4.
           span Registro contable de costos laborales y beneficios legales
         .tabla-a.color-acento-botones.mb-5
-            table
+            table#tabla-4
+              colgroup
+                col(style="width: 20%")
+                col(style="width: 40%")
+                col(style="width: 20%")
+                col(style="width: 20%")
               //- caption Fuente: Arts. 168 y 179 CST
               thead.border-0
                 tr(style="background-color: #f58221") 
@@ -651,98 +634,98 @@
               tbody
                 tr
                   td 720506
-                  td Sueldos
+                  td.text-left Sueldos
                   td.text-right $328.116,00
-                  td
+                  td.text-right -
                 tr(style="background-color: #fdecd8;")
                   td 720527
-                  td Auxilio de transporte
+                  td.text-left Auxilio de transporte
                   td.text-right $91.032,00
-                  td
+                  td.text-right -
                 tr
                   td 720530
-                  td Cesantías
+                  td.text-left Cesantías
                   td.text-right $76.565,00
-                  td
+                  td.text-right -
                 tr(style="background-color: #fdecd8;")
                   td 720533
-                  td Intereses de cesantías
+                  td.text-left Intereses de cesantías
                   td.text-right $9.187,00
-                  td
+                  td.text-right -
                 tr
                   td 720536
-                  td Prima de servicios
+                  td.text-left Prima de servicios
                   td.text-right $76.565,00
-                  td
+                  td.text-right -
                 tr(style="background-color: #fdecd8;")
                   td 720539
-                  td Vacaciones
+                  td.text-left Vacaciones
                   td.text-right $34.532,00
-                  td
+                  td.text-right -
                 tr
                   td 720568
-                  td Aportes a administradores de riesgos profesionales
+                  td.text-left Aportes a administradores de riesgos profesionales
                   td.text-right $4.322,00
-                  td
+                  td.text-right -
                 tr(style="background-color: #fdecd8;")
                   td 720570
-                  td Aportes de fondos de pensiones
+                  td.text-left Aportes de fondos de pensiones
                   td.text-right $99.373,00
-                  td
+                  td.text-right -
                 tr
                   td 720572
-                  td Aportes cajas de compensación familiar
+                  td.text-left Aportes cajas de compensación familiar
                   td.text-right $33.124,00
-                  td
+                  td.text-right -
                 tr(style="background-color: #fdecd8;")
                   td 237005
-                  td Aportes a entidades promotoras de salud EPS
-                  td
+                  td.text-left Aportes a entidades promotoras de salud EPS
+                  td.text-right -
                   td.text-right $33.124,00
                 tr
                   td 237006
-                  td Aportes a administradores de riesgos profesionales
-                  td
+                  td.text-left Aportes a administradores de riesgos profesionales
+                  td.text-right -
                   td.text-right $4.322,00
                 tr(style="background-color: #fdecd8;")
                   td 237010
-                  td Aportes al I.C.B.F, SENA y cajas de compensación
-                  td
+                  td.text-left Aportes al I.C.B.F, SENA y cajas de compensación
+                  td.text-right -
                   td.text-right $33.124,00
                 tr
                   td 238030
-                  td Fondos de cesantías y/o pensiones
-                  td
+                  td.text-left Fondos de cesantías y/o pensiones
+                  td.text-right -
                   td.text-right $132.498,00
                 tr(style="background-color: #fdecd8;")
                   td 261005
-                  td Cesantías
-                  td
+                  td.text-left Cesantías
+                  td.text-right -
                   td.text-right $76.565,00
                 tr
                   td 261010
-                  td Intereses sobre cesantías
-                  td
+                  td.text-left Intereses sobre cesantías
+                  td.text-right -
                   td.text-right $9.187,00
                 tr(style="background-color: #fdecd8;")
                   td 261015
-                  td Vacaciones
-                  td
+                  td.text-left Vacaciones
+                  td.text-right -
                   td.text-right $34.532,00
                 tr
                   td 261020
-                  td Prima de servicios
-                  td
+                  td.text-left Prima de servicios
+                  td.text-right -
                   td.text-right $76.565,00
                 tr(style="background-color: #fdecd8;")
                   td 250501
-                  td Empleados
-                  td
+                  td.text-left Empleados
+                  td.text-right -
                   td.text-right $852.899,00
                 tr(style="font-weight: bold; background-color: #fff3e6;")
-                  td(colspan="2") Sumas iguales
-                  td.text-right $1.252.816,00
-                  td.text-right $1.252.816,00
+                  td(colspan="2").text-left #[strong Sumas iguales]
+                  td.text-right #[strong $1.252.816,00]
+                  td.text-right #[strong $1.252.816,00]
     .p-5(style="background-color: #EDF7FE").mb-5
       p.mb-0 Es importante explorar las páginas sugeridas y la biblioteca SENA para ampliar los conocimientos en cuanto al tema.
           
@@ -767,7 +750,50 @@ export default {
     Linea,
   },
   data: () => ({
-    // variables de vue
+    timelineItems: [
+      {
+        icon: 'icono1.svg',
+        title: 'Hora extraordinaria diurna "HEOD"',
+        desc:
+          'La hora extra diurna es la que se labora luego de la jornada laboral, y entre las 6 de la mañana y las 9 de la noche.',
+      },
+      {
+        icon: 'icono2.svg',
+        title: 'Hora extraordinaria nocturna "HEON"',
+        desc:
+          'La hora extra nocturna es la que se labora luego de la jornada laboral, y entre las 9 de la noche y las 6 de la mañana.',
+      },
+      {
+        icon: 'icono3.svg',
+        title: 'Hora dominical y festivo diurna',
+        desc:
+          'Se presenta durante la jornada ordinaria que se labora el domingo o festivo y entre las 6 de la mañana y las 9 de la noche.',
+      },
+      {
+        icon: 'icono4.svg',
+        title: 'Hora dominical y festivo nocturna',
+        desc:
+          'Se presenta durante la jornada ordinaria que se labora el domingo o festivo, entre las 9 de la noche y las 6 de la mañana.',
+      },
+      {
+        icon: 'icono5.svg',
+        title: 'Hora extra dominical diurna "HEDD"',
+        desc:
+          'La hora extra dominical diurna es la que se labora luego de la jornada laboral, y entre las 6 de la mañana y las 9 de la noche; siempre y cuando se trabaje en un domingo o festivo y, se trabajen más de 8 horas diarias si esa es la jornada ordinaria.',
+      },
+      {
+        icon: 'icono6.svg',
+        title: 'Hora extra-dominical nocturna "HEDN"',
+        desc:
+          'La hora extra dominical nocturna es la que se labora luego de la jornada laboral, entre las 9 de la noche y las 6 de la mañana, cuando se labora domingo o festivo.',
+      },
+      {
+        icon: 'icono7.svg',
+        title: 'Recargo nocturno',
+        desc:
+          'El numeral 1 del artículo 168 del Código Sustantivo del Trabajo señala que el trabajo nocturno se remunera con un recargo del 35 %.',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
@@ -780,4 +806,74 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.timeline-vertical
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  position: relative
+  @media (min-width: $bp-min-lg)
+    margin-left: 1.5rem
+
+.timeline-item
+  display: flex
+  align-items: flex-start
+  position: relative
+  margin-bottom: 2.5rem
+
+.timeline-icon
+  width: 90px
+  height: 90px
+  background: transparent
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  z-index: 2
+  @media (max-width: $bp-max-sm)
+    width: 60px
+    height: 60px
+
+.timeline-dot
+  width: 3px
+  height: 80px
+  background: repeating-linear-gradient(to bottom, #3d4a5c 0, #3d4a5c 6px, transparent 6px, transparent 12px)
+  position: absolute
+  left: 45px
+  top: 60px
+  z-index: 1
+  @media (max-width: $bp-max-md)
+    height: 120px
+  @media (max-width: $bp-max-sm)
+    display: none
+
+
+.timeline-content
+  margin-left: 1.5rem
+  width: 80%
+  h4
+    margin: 0
+    font-weight: bold
+    @media (max-width: $bp-max-md)
+      font-size: 0.9em
+  p
+    margin: 0.5rem 0 0 0
+    @media (max-width: $bp-max-md)
+      font-size: 0.92em
+      line-height: 1.25
+
+#tabla-2, #tabla-3, #tabla-4
+  table-layout: fixed
+  width: 100%
+
+
+#tabla-2
+  margin-left: auto
+  margin-right: auto
+  max-width: 800px
+
+#tabla-3
+  margin-left: auto
+  margin-right: auto
+  max-width: 800px
+</style>

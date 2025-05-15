@@ -114,7 +114,7 @@
             .col-lg-4.col-7(data-aos='fade-left'): img(src='@/assets/curso/temas/9.png', alt='')
             .col-lg-8
               h4(data-aos='fade-right') ¿Qué es un costo de venta?
-              p.mb-0(data-aos='fade-left') Este se da al comercializar un bien (producto), y hace referencia al valor que se genera al comprar un producto que se espera vender; es decir, es el valor de adquisición.
+              p.mb-4(data-aos='fade-left') Este se da al comercializar un bien (producto), y hace referencia al valor que se genera al comprar un producto que se espera vender; es decir, es el valor de adquisición.
               p(data-aos='fade-left') Cabe resaltar que, al vender el producto, los recursos obtenidos no se consideran en su totalidad ganancias para el empresario; teniendo en cuenta que se deben asumir costos y gastos para el buen funcionamiento de la empresa. Una vez se realice la depuración se obtiene la utilidad y/o ganancias de acuerdo con el margen de utilidad que se esté trabajando.
       .py-4.py-md-5(titulo=" ¿Qué es un costo de producción?" :icono="require('@/assets/curso/temas/icon.svg')")
         .p-4
@@ -137,8 +137,8 @@
           .col-lg-7
             h4(data-aos='fade-left') Empresa comercial
             p(data-aos='fade-right') El costo en este tipo de empresa es el valor de adquisición del producto que se desea vender.
-            p(data-aos='fade-left') #[strong Ejemplo]
-            p(data-aos='fade-right') La empresa Surtimodas S.A.S. se dedica a vender jeans. Por lo tanto, el costo del producto es el valor de la compra del jean, posteriormente se fija el precio de venta al público.
+            p(data-aos='fade-left') #[strong Ejemplo:]
+            p(data-aos='fade-right') La empresa Surtimodas S.A.S. se dedica a vender Jeans. Por lo tanto, el costo del producto es el valor de la compra del Jean, posteriormente se fija el precio de venta al público.
       .py-4.py-md-5(titulo="Empresa industrial")
         .row.justify-content-center.mb-5.align-items-center
           .col-lg-5.col-7.mb-4.mb-md-0: img(src='@/assets/curso/temas/12.png', alt='')
@@ -147,7 +147,7 @@
             h4 Empresa industrial
             p Para determinar el costo en empresas manufactureras intervienen los tres elementos del costo. Materia Prima Directa (MPD), Mano de Obra Directa (MOD) y los Costos Indirectos de Fabricación (CIF).
             p #[strong Ejemplo]
-            p La empresa Fashion’s se dedica a producir jeans. Los elementos del costo son:
+            p La empresa #[em Fashion’s] se dedica a producir Jeans. Los elementos del costo son:
             p #[b MPD:] tela, botones, cremalleras, hilos.
             p #[b MOD:] salario de los operarios que confeccionan el jean, como lo son: cortadores, fileteadoras, hojalateros, cosedores, bordadores, etc.
             p #[b CIF:] depreciación y mantenimiento de maquinaria y equipo, arrendamiento, seguros y servicios de la planta de producción, etc.
@@ -196,7 +196,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 1.
           span  Elementos de la NIC 2
-        img(src='@/assets/curso/temas/18.svg', alt='')
+        img(src='@/assets/curso/temas/18.svg', alt='Diagrama sobre los elementos de la NIC 2 que organiza los inventarios en tres categorías: activos mantenidos para la venta (producto terminado), activos en proceso de producción para la venta (producto en proceso) y activos para ser consumidos en el proceso de producción (materia prima).')
     .titulo-tres: h3 Medición NIC 2
     p.mb-4 Para la medición de inventarios es importante tener en cuenta:
     .row.justify-content-center.mb-5
@@ -204,7 +204,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2.
           span  Elementos de la NIC 2
-        img(src='@/assets/curso/temas/19.svg', alt='')
+        img(src='@/assets/curso/temas/19.svg', alt='Diagrama sobre la medición del inventario según la NIC 2 que indica la valoración al menor entre el costo y el valor neto realizable, y establece el uso de una fórmula uniforme para inventarios de uso o naturaleza similar dentro de una organización.')
     .p-5(style="background-color: #F3F0EA").mb-5
       .row.justify-content-center.align-items-center
         .col-lg-auto.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.svg', alt='', style="max-width: 90px;")
@@ -219,7 +219,7 @@
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 3.
               span  Métodos de valoración NIC 2
-            img(src='@/assets/curso/temas/21b.svg', alt='', style="max-width: 505px;").mx-auto
+            img(src='@/assets/curso/temas/21b.svg', alt='Diagrama sobre métodos de valoración de inventarios según la NIC 2 que incluye el método PEPS (primeros en entrar, primeros en salir) y el costo promedio ponderado como formas de determinar el valor del inventario.', style="max-width: 505px;").mx-auto
         ul.lista-ul
           li
             i.fas.fa-angle-right
@@ -246,14 +246,14 @@
               h3.mb-1(style="color: #FD9826 ") NIC 2 Inventarios.
               p.text-small.text-white Lo invitamos a visitar el siguiente PDF, para conocer Los costos indirectos de fabricación hacen parte de los costos de transformación, según se describe en los párrafos 12 a 14 de la NIC 2 Inventarios
             .col.mb-3.mb-sm-0
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/2_NIC.pdf')" target="_blank" type="application/pdf")
                 span(style='color: #12263F') Descargar 
                 i.fas.fa-file-download(style='color: #12263F')
     .titulo-tres: h3 Norma Internacional de Contabilidad (NIC) 2 Inventarios
     .row.justify-content-center.mb-5
       .col-lg-5.col-7: img(src='@/assets/curso/temas/25.png', alt='')
       .col-lg-7
-        p.mb-0(data-aos='fade-right') En abril de 2001 el Consejo de Normas Internacionales de Contabilidad (Consejo) adoptó la NIC 2 Inventarios, que había sido originalmente emitida por el Comité de Normas Internacionales de Contabilidad en diciembre de 1993. La NIC 2 Inventarios reemplazó a la NIC 2 Valoración y presentación de inventarios en el contexto del sistema de costo histórico (originalmente emitida en octubre de 1975). En diciembre de 2003 el Consejo emitió una NIC 2 revisada como parte de su agenda inicial de proyectos técnicos. La NIC 2 revisada también incorporó las guías contenidas en una Interpretación relacionada (SIC-1 Uniformidad - Diferentes fórmulas para el cálculo del costo de los inventarios).
+        p.mb-4(data-aos='fade-right') En abril de 2001 el Consejo de Normas Internacionales de Contabilidad (Consejo) adoptó la NIC 2 Inventarios, que había sido originalmente emitida por el Comité de Normas Internacionales de Contabilidad en diciembre de 1993. La NIC 2 Inventarios reemplazó a la NIC 2 Valoración y presentación de inventarios en el contexto del sistema de costo histórico (originalmente emitida en octubre de 1975). En diciembre de 2003 el Consejo emitió una NIC 2 revisada como parte de su agenda inicial de proyectos técnicos. La NIC 2 revisada también incorporó las guías contenidas en una Interpretación relacionada (SIC-1 Uniformidad - Diferentes fórmulas para el cálculo del costo de los inventarios).
         p.mb-0(data-aos='fade-left') Otras normas han realizado modificaciones consiguientes de menor importancia a la NIC 2. Estas incluyen la NIIF 13 Medición del valor razonable (emitida en mayo de 2011), la NIIF 9 Instrumentos financieros (contabilidad de coberturas y modificaciones a las NIIF 9, NIIF 7 y NIC 39) (emitida en noviembre de 2013), NIIF 15 Ingresos de actividades ordinarias procedentes de contratos con clientes (emitida en mayo de 2014), NIIF 9 Instrumentos financieros (emitida en julio de 2014) y NIIF 16 Arrendamientos (emitida en enero de 2016) (NIC, s.f., pp. 4-16).
 
     .row.justify-content-center.mb-5
@@ -262,11 +262,11 @@
           p.mb-0 #[b Objetivo:] El objetivo de esta norma es prescribir el tratamiento contable de los inventarios. Un tema fundamental en la contabilidad de los inventarios es la cantidad de costo que debe reconocerse como un activo, para que sea diferido hasta que los ingresos correspondientes sean reconocidos. Esta norma suministra una guía práctica para la determinación de ese costo, así como para el subsiguiente reconocimiento como un gasto del periodo, incluyendo también cualquier deterioro que rebaje el importe en libros al valor neto realizable. También suministra directrices sobre las fórmulas del costo que se usan para atribuir costos a los inventarios (NIC, s.f., pp. 4-16).
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta.p-4.h-100(style="background-color: #F3F0EA ", data-aos='fade-left')
-          p.mb-0 #[b Alcance:] Esta norma se aplica a todos los inventarios, excepto a: (a) [eliminado] (b) los instrumentos financieros (véanse las NIC 32 Instrumentos financieros: presentación y NIIF 9 Instrumentos financieros); y (c) los activos biológicos relacionados con la actividad agrícola y productos agrícolas en el punto de cosecha o recolección (ver la NIC 41 Agricultura).
+          p.mb-4 #[b Alcance:] Esta norma se aplica a todos los inventarios, excepto a: (a) [eliminado] (b) los instrumentos financieros (véanse las NIC 32 Instrumentos financieros: presentación y NIIF 9 Instrumentos financieros); y (c) los activos biológicos relacionados con la actividad agrícola y productos agrícolas en el punto de cosecha o recolección (ver la NIC 41 Agricultura).
           p Esta norma no se aplica en la medición de los inventarios mantenidos por: a) Productores de productos agrícolas y forestales, de productos agrícolas tras la cosecha o recolección, de minerales y de productos minerales, siempre que sean medidos por su valor neto realizable, de acuerdo con prácticas bien consolidadas en esos sectores industriales.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-0(data-aos='fade-right') En el caso de que esos inventarios se midan al valor neto realizable, los cambios en este valor se reconocerán en el resultado del periodo en que se produzcan dichos cambios. b) Intermediarios que comercian con materias primas cotizadas, siempre que midan sus inventarios al valor razonable menos costos de venta. En el caso de que esos inventarios se lleven al valor razonable menos costos de venta, los cambios en el importe del valor razonable menos costos de venta se reconocerán en el resultado del periodo en que se produzcan dichos cambios.
+        p.mb-4(data-aos='fade-right') En el caso de que esos inventarios se midan al valor neto realizable, los cambios en este valor se reconocerán en el resultado del periodo en que se produzcan dichos cambios. b) Intermediarios que comercian con materias primas cotizadas, siempre que midan sus inventarios al valor razonable menos costos de venta. En el caso de que esos inventarios se lleven al valor razonable menos costos de venta, los cambios en el importe del valor razonable menos costos de venta se reconocerán en el resultado del periodo en que se produzcan dichos cambios.
         p.mb-0(data-aos='fade-left') Los inventarios a que se ha hecho referencia se miden por su valor neto realizable en ciertas fases de la producción. Ello ocurre, por ejemplo, cuando se han recogido las cosechas agrícolas o se han extraído los minerales, siempre que su venta esté asegurada por un contrato a plazo sea cual fuere su tipo o garantizada por el gobierno, o bien cuando existe un mercado activo y el riesgo de fracasar en la venta sea mínimo. Esos inventarios 1. 2. 3. 4. NIC 2 A1062 © IFRS Foundation se excluyen únicamente de los requerimientos de medición establecidos en esta Norma.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/26.png', alt='', data-aos='zoom-in')
     div(style="background-color: #E6DCFB ").mb-5
@@ -285,7 +285,7 @@
               h3.mb-1(style="color: #FD9826 ") NIC 2 Inventarios.
               p.text-small.text-white Para ampliar los conocimientos sobre la norma, le invitamos a descargar el siguiente recurso en formato PDF para profundizar en el conocimiento de la norma NIC 2 sobre inventarios.
             .col.mb-3.mb-sm-0
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/NIC_2_Inventarios.pdf')" target="_blank" type="application/pdf")
                 span(style='color: #12263F') Descargar 
                 i.fas.fa-file-download(style='color: #12263F')
     Separador
@@ -327,20 +327,20 @@
           .row.justify-content-center.mb-5
             .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/30.svg', alt='')
             .col-lg-8
-              p.mb-3 La empresa Sánchez S.A.S. dedicada a la producción de muebles de madera requiere los siguientes elementos:
+              p.mb-3 La empresa Sánchez S.A.S., dedicada a la producción de muebles de madera requiere los siguientes elementos:
               ul.lista-ul
                 li.d-flex
                   i.fas.fa-angle-right
-                  p.mb-0 #[b MPD:] Madera, pintura, sellantes, tornillos, materiales de tapicería, etc.
+                  p.mb-0 #[b MPD:] madera, pintura, sellantes, tornillos, materiales de tapicería, etc.
                 li.d-flex
                   i.fas.fa-angle-right
-                  p.mb-0 #[b MOD:] Salarios de los operarios como cortadores, armadores, pintores, cepilladores, etc.
+                  p.mb-0 #[b MOD:] salarios de los operarios como cortadores, armadores, pintores, cepilladores, etc.
                 li.d-flex
                   i.fas.fa-angle-right
-                  p.mb-0 #[b CIF:] Depreciación y mantenimiento de la máquina, servicios públicos de la planta de producción, supervisores, jefes de planta.
+                  p.mb-0 #[b CIF:] depreciación y mantenimiento de la máquina, servicios públicos de la planta de producción, supervisores, jefes de planta.
     p.mb-5 A continuación, se profundizará en los elementos del costo.
     .titulo-tres: h3 Materia prima y/o material directo
-    p.mb-4 Materia prima y/o material directo
+    p.mb-4 Son los elementos que están sujetos a transformación y conviene diferenciarlos de la siguiente manera:
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo=" Materia prima" :icono="require('@/assets/curso/temas/31.svg')")
         .row.justify-content-center.mb-5.align-items-centerb
@@ -365,12 +365,15 @@
           .p-4
             p.mb-0 Para transformar la materia prima y/o material directo en un producto acabado es necesario, además de la maquinaria y equipo, herramientas, muebles y enseres, etc., que determinado número de personas desarrollen un esfuerzo mental y material, el cual recibe el nombre de labor, todas las erogaciones por este concepto se consideran dentro de este título. Por lo tanto, se puede decir que: “sueldos y salarios” es el costo de la retribución que los obreros u operarios perciben por su trabajo en la transformación de los materiales en su estado natural o procesado por otra entidad, en un producto terminado (Solo contabilidad, s.f., p. 1).
     .titulo-tres: h3 Costos indirectos de fabricación
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/35.png')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/35.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Dentro del proceso productivo, hay costos que no pueden identificarse con unidades específicas de producción o con un departamento o con un proceso específico, tales como: la depreciación de bienes de uso, luz y fuerza, combustibles, lubricantes, repuestos y accesorios, etc.; por lo que se denominan: “Servicios de planta”, “Gastos indirectos de fabricación”, “Gastos indirectos de producción”, etc. Es decir, están constituidos por todos los desembolsos o aplicaciones necesarias para llevar a cabo la producción y los cuales, por su naturaleza, no son aplicables directamente al costo de un producto en particular (Solo contabilidad, s.f., p. 1).
+
+
     .row.justify-content-center.mb-5
       .col-lg-3.col-7: img(src='@/assets/curso/temas/36.png', alt='')
       .col-lg-9
@@ -389,7 +392,7 @@
               li.d-flex
                 i.fas.fa-angle-right
                 p.mb-0 Continúa: por la alta demanda del producto siempre se está fabricando
-          div(titulo="Tipos de costos de producción:")
+          div(titulo="Tipos de costos de producción")
             ul.lista-ul
               li.d-flex
                 i.fas.fa-angle-right
@@ -399,10 +402,10 @@
                 p.mb-0 #[b Costos variables:] son aquellos que varían según la producción si se aumenta o disminuye.
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 #[b Costo total:] Es la suma de los costos fijos y los cost
+                p.mb-0 #[b Costo total:] es la suma de los costos fijos y los costos variables.
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 #[b Costo unitario:] Es lo que cuesta producir cada unidad.
+                p.mb-0 #[b Costo unitario:] es lo que cuesta producir cada unidad.
           div(titulo=" Fórmulas costos de producción")
             p.mb-4 Dentro de las fórmulas de los costos de producción encontramos:
             ul.lista-ul
@@ -418,7 +421,7 @@
         .p-4(style="background-color: #FEEAD4 ").mb-4
           p.mb-0 Es una herramienta estratégica para determinar la solvencia de un negocio y su rentabilidad, es el punto de partida para determinar dónde empieza una empresa a obtener utilidad sobre sus ventas.
         p.mb-4 La fórmula que se presenta es:
-        img(src='@/assets/curso/temas/37.svg', alt='')
+        img(src='@/assets/curso/temas/37.svg', alt='Fórmula sobre el punto de equilibrio (PE) que representa la división del costo fijo total entre la diferencia entre el precio de venta y el costo variable por unidad.', style="max-width: 504px;").mx-auto
       .col-lg-5.col-7: img(src='@/assets/curso/temas/38.png', alt='')
     .titulo-tres: h3 Proceso contable de los costos
     p.mb-4 De acuerdo con los costos de producción, es importante tener en cuenta la estructura y naturaleza de las cuentas para el reconocimiento y medición.
@@ -428,33 +431,33 @@
         LineaTiempoD.color-acento-contenido
           div(numero="1" titulo="Costo primo")
             p.mb-4 Para determinar el costo primo se suma el concepto de Materia Prima Directa (MPD) y Mano de Obra Directa (MOD), como se presenta a continuación:
-            .row.justify-content-center.mb-5
-              .col-lg-8
-                img(src='@/assets/curso/temas/40.svg', alt='')
+            img(src='@/assets/curso/temas/40.svg', alt='Fórmula sobre el costo primo que resulta de la suma de la materia prima directa (MPD) y la mano de obra directa (MOD).', style="max-width: 335px;").mx-auto
           div(numero="2" titulo="Costo de conversión")
             p.mb-4 Para hallar el total de los costos de conversión se suma el concepto de mano de obra directa y costos indirectos de fabricación, así:
-            .row.justify-content-center.mb-5
-              .col-lg-8
-                img(src='@/assets/curso/temas/41.svg', alt='')
+            img(src='@/assets/curso/temas/41.svg', alt='Fórmula sobre el costo de conversión que se obtiene al sumar la mano de obra directa (MOD) y los costos indirectos de fabricación (CIF).', style="max-width: 433px;").mx-auto
           div(numero="3" titulo="Costo de producción")
             p.mb-4 Es de recordar que los costos de producción se encuentran conformados por los siguientes elementos:
-            .row.justify-content-center.mb-5
-              .col-lg-8
-                img(src='@/assets/curso/temas/42.svg', alt='')
+            img(src='@/assets/curso/temas/42.svg', alt='Fórmula sobre el total del costo de producción que resulta de la suma de materia prima directa (MPD), mano de obra directa (MOD) y costos indirectos de fabricación (CIF).', style="max-width: 433px;").mx-auto
           div(numero="4" titulo="Costo unitario")
             p.mb-4 Para determinar el costo unitario de un producto se debe tener en cuenta el valor total de la producción y se divide entre las unidades producidas o fabricadas, de la siguiente manera:
             .row.justify-content-center.mb-5
               .col-lg-8
-                img(src='@/assets/curso/temas/43.svg', alt='')
+                img(src='@/assets/curso/temas/43.svg', alt='Fórmula sobre el costo unitario que se calcula dividiendo el costo total de producción entre el número de unidades fabricadas.', style="max-width: 294px;").mx-auto
     .titulo-tres: h3 Devengo de los costos
     p.mb-4 Para realizar el reconocimiento y medición del costo de producción, es fundamental tener en cuenta las políticas de la empresa y la normatividad vigente. A continuación, se presenta un ejemplo de las cuentas que se utilizan y la naturaleza de estas:
+
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Tabla 1.
           span Registro contable de movimientos de inventarios de materias primas y productos en proceso
         .tabla-a.color-acento-botones.mb-5
-          table
+          table#tabla-1(style="width: 100%")
+            colgroup
+              col(style="width: 25%")
+              col(style="width: 25%")
+              col(style="width: 25%")
+              col(style="width: 25%")
             thead.border-0(style="background-color: #FD9826")
               tr
                 th Código
@@ -464,89 +467,93 @@
             tbody
               tr
                 td 7105
-                td Materiales directos
-                td $24.893.000
+                td.text-left Materiales directos
+                td.text-right $24.893.000
+              tr
+                td 7105
+                td.text-left Materiales directos
+                td.text-right $15.841.000
                 td
               tr
                 td 7105
-                td Materiales directos
-                td $15.841.000
+                td.text-left Materiales directos
+                td.text-right $905.200
                 td
               tr
                 td 7105
-                td Materiales directos
-                td $905.200
+                td.text-left Materiales directos
+                td.text-right $2.263.000
                 td
               tr
                 td 7105
-                td Materiales directos
-                td $2.263.000
-                td
-              tr
-                td 7105
-                td Materiales directos
-                td $11.315.000
+                td.text-left Materiales directos
+                td.text-right $11.315.000
                 td
               tr
                 td 1405
-                td Materias primas
+                td.text-left Materias primas
                 td
-                td $55.217.200
+                td.text-right $55.217.200
               tr
                 td 1410
-                td Productos en proceso
-                td $55.217.200
+                td.text-left Productos en proceso
+                td.text-right $55.217.200
                 td
               tr
                 td 7105
-                td Materiales directos
+                td.text-left Materiales directos
                 td
-                td $55.217.200
+                td.text-right $55.217.200
               tr
                 td 1410
-                td Productos en proceso
-                td $3.758.448
+                td.text-left Productos en proceso
+                td.text-right $3.758.448
                 td
               tr
                 td 7205
-                td Mano de obra directa
+                td.text-left Mano de obra directa
                 td
                 td $3.758.448
               tr
                 td 7305
-                td Costos indirectos de fabricación
-                td $6.485.758
+                td.text-left Costos indirectos de fabricación
+                td.text-right $6.485.758
                 td
               tr
                 td 2335
-                td Costos y gastos por pagar
+                td.text-left Costos y gastos por pagar
                 td
-                td $6.485.758
+                td.text-right $6.485.758
               tr
                 td 1410
-                td Productos en proceso
-                td $6.485.758
+                td.text-left Productos en proceso
+                td.text-right $6.485.758
                 td
               tr
                 td 7305
-                td Costos indirectos de fabricación
+                td.text-left Costos indirectos de fabricación
                 td
-                td $6.485.758
+                td.text-right $6.485.758
+              tr
+                td 7305
+                td.text-left Costos indirectos de fabricación
+                td
+                td.text-right $6.485.758
               tr
                 td 1410
-                td Productos en proceso
-                td $65.461.406
+                td.text-left Productos en proceso
+                td.text-right $65.461.406
                 td
               tr
                 td 1413
-                td Productos terminados
+                td.text-left Productos terminados
                 td
-                td $65.461.406
+                td.text-right $65.461.406
               tr
                 td 
-                td Sumas iguales
-                td $192.625.770
-                td $192.625.770
+                td.text-left #[strong Sumas iguales]
+                td.text-right #[strong $192.625.770]
+                td.text-right #[strong $192.625.770]
     
 
 </template>
@@ -568,4 +575,8 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+#tabla-1
+  table-layout: fixed
+  width: 100%
+</style>
