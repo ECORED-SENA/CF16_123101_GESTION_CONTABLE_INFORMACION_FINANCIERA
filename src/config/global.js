@@ -211,7 +211,8 @@ export default {
     },
     {
       referencia: 'Incp.org.co. (2021). NIC 19.',
-      link: 'https://incp.org.co/Site/publicaciones/guias/nic-19.pdf',
+      link:
+        'https://incp.org.co/wp-content/uploads/2024/09/NIIF-19-en-espanol-%E2%80%93-IASB.pdf',
     },
     {
       referencia:
@@ -231,11 +232,6 @@ export default {
     },
     {
       referencia:
-        'Sinisterra, G. (2017). Contabilidad de costos con aproximación a las normas internacionales. (2a. ed.). Ecoe Ediciones.',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5713',
-    },
-    {
-      referencia:
         'Solocontabilidad.com. (2020b). Materia prima y/o material directo. Sueldos y salarios. Gastos indirectos de producción.',
       link:
         'https://www.solocontabilidad.com/costos/materia-prima-y-material-directo-sueldos-y-salarios-gastos-indirectos-de-produccion',
@@ -245,15 +241,6 @@ export default {
         'Solo contabilidad. (2020a). Elementos del costo y clasificación de los costos.',
       link:
         'https://www.solocontabilidad.com/costos/elementos-del-costo-y-clasificacion-de-los-costos',
-    },
-    {
-      referencia: 'Tafen S.A. (2021). Contabilidad financiera.',
-      link: 'https://tafensolutions.com/portafolio/contabilidad-financiera/',
-    },
-    {
-      referencia: 'Varón, L. (2017). Valor neto realizable.',
-      link:
-        'https://www.gerencie.com/valor-neto-realizable-y-valor-razonable-nic.html',
     },
   ],
   glosario: [

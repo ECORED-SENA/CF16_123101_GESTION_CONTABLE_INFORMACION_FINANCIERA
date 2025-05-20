@@ -138,7 +138,7 @@
             h4(data-aos='fade-left') Empresa comercial
             p(data-aos='fade-right') El costo en este tipo de empresa es el valor de adquisición del producto que se desea vender.
             p(data-aos='fade-left') #[strong Ejemplo:]
-            p(data-aos='fade-right') La empresa Surtimodas S.A.S. se dedica a vender Jeans. Por lo tanto, el costo del producto es el valor de la compra del Jean, posteriormente se fija el precio de venta al público.
+            p(data-aos='fade-right') La empresa Surtimodas S.A.S. se dedica a vender #[em Jeans]. Por lo tanto, el costo del producto es el valor de la compra del #[em Jean], posteriormente se fija el precio de venta al público.
       .py-4.py-md-5(titulo="Empresa industrial")
         .row.justify-content-center.mb-5.align-items-center
           .col-lg-5.col-7.mb-4.mb-md-0: img(src='@/assets/curso/temas/12.png', alt='')
@@ -147,7 +147,7 @@
             h4 Empresa industrial
             p Para determinar el costo en empresas manufactureras intervienen los tres elementos del costo. Materia Prima Directa (MPD), Mano de Obra Directa (MOD) y los Costos Indirectos de Fabricación (CIF).
             p #[strong Ejemplo]
-            p La empresa #[em Fashion’s] se dedica a producir Jeans. Los elementos del costo son:
+            p La empresa #[em Fashion’s] se dedica a producir #[em Jeans]. Los elementos del costo son:
             p #[b MPD:] tela, botones, cremalleras, hilos.
             p #[b MOD:] salario de los operarios que confeccionan el jean, como lo son: cortadores, fileteadoras, hojalateros, cosedores, bordadores, etc.
             p #[b CIF:] depreciación y mantenimiento de maquinaria y equipo, arrendamiento, seguros y servicios de la planta de producción, etc.
@@ -259,10 +259,10 @@
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta.p-4.h-100(style="background-color: #DDEFFD ", data-aos='fade-right')
-          p.mb-0 #[b Objetivo:] El objetivo de esta norma es prescribir el tratamiento contable de los inventarios. Un tema fundamental en la contabilidad de los inventarios es la cantidad de costo que debe reconocerse como un activo, para que sea diferido hasta que los ingresos correspondientes sean reconocidos. Esta norma suministra una guía práctica para la determinación de ese costo, así como para el subsiguiente reconocimiento como un gasto del periodo, incluyendo también cualquier deterioro que rebaje el importe en libros al valor neto realizable. También suministra directrices sobre las fórmulas del costo que se usan para atribuir costos a los inventarios (NIC, s.f., pp. 4-16).
+          p.mb-0 #[b Objetivo:] el objetivo de esta norma es prescribir el tratamiento contable de los inventarios. Un tema fundamental en la contabilidad de los inventarios es la cantidad de costo que debe reconocerse como un activo, para que sea diferido hasta que los ingresos correspondientes sean reconocidos. Esta norma suministra una guía práctica para la determinación de ese costo, así como para el subsiguiente reconocimiento como un gasto del periodo, incluyendo también cualquier deterioro que rebaje el importe en libros al valor neto realizable. También suministra directrices sobre las fórmulas del costo que se usan para atribuir costos a los inventarios (NIC, s.f., pp. 4-16).
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta.p-4.h-100(style="background-color: #F3F0EA ", data-aos='fade-left')
-          p.mb-4 #[b Alcance:] Esta norma se aplica a todos los inventarios, excepto a: (a) [eliminado] (b) los instrumentos financieros (véanse las NIC 32 Instrumentos financieros: presentación y NIIF 9 Instrumentos financieros); y (c) los activos biológicos relacionados con la actividad agrícola y productos agrícolas en el punto de cosecha o recolección (ver la NIC 41 Agricultura).
+          p.mb-4 #[b Alcance:] esta norma se aplica a todos los inventarios, excepto a: (a) [eliminado] (b) los instrumentos financieros (véanse las NIC 32 Instrumentos financieros: presentación y NIIF 9 Instrumentos financieros); y (c) los activos biológicos relacionados con la actividad agrícola y productos agrícolas en el punto de cosecha o recolección (ver la NIC 41 Agricultura).
           p Esta norma no se aplica en la medición de los inventarios mantenidos por: a) Productores de productos agrícolas y forestales, de productos agrícolas tras la cosecha o recolección, de minerales y de productos minerales, siempre que sean medidos por su valor neto realizable, de acuerdo con prácticas bien consolidadas en esos sectores industriales.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -473,26 +473,27 @@
                 td 7105
                 td.text-left Materiales directos
                 td.text-right $15.841.000
-                td
+                td.text-right -
+                
               tr
                 td 7105
                 td.text-left Materiales directos
                 td.text-right $905.200
-                td
+                td.text-right -
               tr
                 td 7105
                 td.text-left Materiales directos
                 td.text-right $2.263.000
-                td
+                td.text-right -
               tr
                 td 7105
                 td.text-left Materiales directos
                 td.text-right $11.315.000
-                td
+                td.text-right -
               tr
                 td 1405
                 td.text-left Materias primas
-                td
+                td.text-right -
                 td.text-right $55.217.200
               tr
                 td 1410
@@ -508,12 +509,12 @@
                 td 1410
                 td.text-left Productos en proceso
                 td.text-right $3.758.448
-                td
+                td.text-right -
               tr
                 td 7205
                 td.text-left Mano de obra directa
-                td
-                td $3.758.448
+                td.text-right -
+                td.text-right $3.758.448
               tr
                 td 7305
                 td.text-left Costos indirectos de fabricación
@@ -522,32 +523,32 @@
               tr
                 td 2335
                 td.text-left Costos y gastos por pagar
-                td
+                td.text-right -
                 td.text-right $6.485.758
               tr
                 td 1410
                 td.text-left Productos en proceso
                 td.text-right $6.485.758
-                td
+                td.text-right -
               tr
                 td 7305
                 td.text-left Costos indirectos de fabricación
-                td
+                td.text-right -
                 td.text-right $6.485.758
               tr
                 td 7305
                 td.text-left Costos indirectos de fabricación
-                td
+                td.text-right -
                 td.text-right $6.485.758
               tr
                 td 1410
                 td.text-left Productos en proceso
                 td.text-right $65.461.406
-                td
+                td.text-right -
               tr
                 td 1413
                 td.text-left Productos terminados
-                td
+                td.text-right -
                 td.text-right $65.461.406
               tr
                 td 

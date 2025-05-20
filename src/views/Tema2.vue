@@ -414,12 +414,12 @@
                 td 4 %
                 td 16 %
               tr
-                td.text-left *ARL
+                td.text-left ARL
                 td 0.522 %
                 td 0 %
                 td 0.522 %
               tr(style="background-color: #FEEAD4;")
-                td.text-left **Fondo de solidaridad
+                td.text-left Fondo de solidaridad
                 td 0 %
                 td 1 %
                 td 1 %
@@ -445,7 +445,7 @@
             p.mb-4 La cotización de ARL varía según el riesgo a que se exponga cada trabajador y es pagada en su totalidad por el empleador. Los aportes varían entre un 0,348 % para el nivel I y 8,7 % para el nivel V de riesgo. La tarifa más común es del 0,522 %.
           div(numero="2" titulo="Fondo de solidaridad")
             p.mb-4 Los trabajadores con sueldos entre 4 y 16 salarios mínimos deben realizar un aporte adicional del 1 %.
-            p Los trabajadores que devenguen mensualmente 16 salarios mínimos o más, adicional al 1 %, deben hacer un aporte adicional del 0,2 % por cada sueldo mínimo adicional que devenguen hasta los 20 salarios mínimos
+            p Los trabajadores que devenguen mensualmente 16 salarios mínimos o más, adicional al 1 %, deben hacer un aporte adicional del 0,2 % por cada sueldo mínimo adicional que devenguen hasta los 20 salarios mínimos.
           div(numero="3" titulo="Prestaciones sociales")
             p.mb-4 Es el conjunto de beneficios adicionales al salario que la ley ha otorgado a los trabajadores con el fin de contribuir a su bienestar; constituyen un gasto de los empleadores, quienes deben causarse o reconocerlos con cargo a los gastos por prestaciones sociales que adeudan a los trabajadores y constituir las provisiones sobre su nómina mensual. 
           div(numero="4" titulo="Cesantías")
