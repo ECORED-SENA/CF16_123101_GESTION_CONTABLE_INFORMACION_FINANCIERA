@@ -303,7 +303,7 @@ export default {
         'Contabilidad de costos con aproximación a las normas internacionales -<br> Sinisterra, G. (2017). Contabilidad de costos con aproximación a las normas internacionales. (2a. ed.) Ecoe Ediciones.',
       tipo: 'Libro',
       link:
-        'https://login.bdigital.sena.edu.co/login?url=http://www.ebooks7-24.com/?il=5713',
+        'https://www.academia.edu/37260597/CONTABILIDAD_Con_aproximaci%C3%B3n_a_las_Normas_Internacionales',
     },
   ],
   creditos: [
@@ -343,7 +343,7 @@ export default {
       autores: [
         {
           nombre: 'Diana Milena Picón Rincón',
-          cargo: 'Diseñador de contenidos',
+          cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -355,7 +355,7 @@ export default {
         },
         {
           nombre: 'Alejandro Delgado Acosta',
-          cargo: 'Intérprete Lenguaje de señas',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

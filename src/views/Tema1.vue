@@ -203,7 +203,7 @@
       .col-lg-6.mb-lg-0.mb-3.col-7
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2.
-          span  Elementos de la NIC 2
+          span  Medición siguiendo la NIC 2
         img(src='@/assets/curso/temas/19.svg', alt='Diagrama sobre la medición del inventario según la NIC 2 que indica la valoración al menor entre el costo y el valor neto realizable, y establece el uso de una fórmula uniforme para inventarios de uso o naturaleza similar dentro de una organización.')
     .p-5(style="background-color: #F3F0EA").mb-5
       .row.justify-content-center.align-items-center
@@ -244,7 +244,7 @@
           .row.justify-content-between.align-items-center
             .col-10.mb-3.mb-sm-0
               h3.mb-1(style="color: #FD9826 ") NIC 2 Inventarios.
-              p.text-small.text-white Lo invitamos a visitar el siguiente PDF, para conocer Los costos indirectos de fabricación hacen parte de los costos de transformación, según se describe en los párrafos 12 a 14 de la NIC 2 Inventarios
+              p.text-small.text-white Lo invitamos a visitar el siguiente PDF, para conocer los costos indirectos de fabricación hacen parte de los costos de transformación, según se describe en los párrafos 12 a 14 de la NIC 2 Inventarios
             .col.mb-3.mb-sm-0
               a.boton.color-acento-botones(:href="obtenerLink('downloads/2_NIC.pdf')" target="_blank" type="application/pdf")
                 span(style='color: #12263F') Descargar 
@@ -253,7 +253,7 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-7: img(src='@/assets/curso/temas/25.png', alt='')
       .col-lg-7
-        p.mb-4(data-aos='fade-right') En abril de 2001 el Consejo de Normas Internacionales de Contabilidad (Consejo) adoptó la NIC 2 Inventarios, que había sido originalmente emitida por el Comité de Normas Internacionales de Contabilidad en diciembre de 1993. La NIC 2 Inventarios reemplazó a la NIC 2 Valoración y presentación de inventarios en el contexto del sistema de costo histórico (originalmente emitida en octubre de 1975). En diciembre de 2003 el Consejo emitió una NIC 2 revisada como parte de su agenda inicial de proyectos técnicos. La NIC 2 revisada también incorporó las guías contenidas en una Interpretación relacionada (SIC-1 Uniformidad - Diferentes fórmulas para el cálculo del costo de los inventarios).
+        p.mb-4(data-aos='fade-right') En abril de 2001 el Consejo de Normas Internacionales de Contabilidad (Consejo) adoptó la NIC 2 Inventarios, que había sido originalmente emitida por el Comité de Normas Internacionales de Contabilidad en diciembre de 1993. La NIC 2 Inventarios reemplazó a la NIC 2 Valoración y presentación de inventarios en el contexto del sistema de costo histórico (originalmente emitida en octubre de 1975). En diciembre de 2003 el Consejo emitió una NIC 2 revisada como parte de su agenda inicial de proyectos técnicos. La NIC 2 revisada también incorporó las guías contenidas en una interpretación relacionada (SIC-1 Uniformidad - Diferentes fórmulas para el cálculo del costo de los inventarios).
         p.mb-0(data-aos='fade-left') Otras normas han realizado modificaciones consiguientes de menor importancia a la NIC 2. Estas incluyen la NIIF 13 Medición del valor razonable (emitida en mayo de 2011), la NIIF 9 Instrumentos financieros (contabilidad de coberturas y modificaciones a las NIIF 9, NIIF 7 y NIC 39) (emitida en noviembre de 2013), NIIF 15 Ingresos de actividades ordinarias procedentes de contratos con clientes (emitida en mayo de 2014), NIIF 9 Instrumentos financieros (emitida en julio de 2014) y NIIF 16 Arrendamientos (emitida en enero de 2016) (NIC, s.f., pp. 4-16).
 
     .row.justify-content-center.mb-5
@@ -262,7 +262,7 @@
           p.mb-0 #[b Objetivo:] el objetivo de esta norma es prescribir el tratamiento contable de los inventarios. Un tema fundamental en la contabilidad de los inventarios es la cantidad de costo que debe reconocerse como un activo, para que sea diferido hasta que los ingresos correspondientes sean reconocidos. Esta norma suministra una guía práctica para la determinación de ese costo, así como para el subsiguiente reconocimiento como un gasto del periodo, incluyendo también cualquier deterioro que rebaje el importe en libros al valor neto realizable. También suministra directrices sobre las fórmulas del costo que se usan para atribuir costos a los inventarios (NIC, s.f., pp. 4-16).
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta.p-4.h-100(style="background-color: #F3F0EA ", data-aos='fade-left')
-          p.mb-4 #[b Alcance:] esta norma se aplica a todos los inventarios, excepto a: (a) [eliminado] (b) los instrumentos financieros (véanse las NIC 32 Instrumentos financieros: presentación y NIIF 9 Instrumentos financieros); y (c) los activos biológicos relacionados con la actividad agrícola y productos agrícolas en el punto de cosecha o recolección (ver la NIC 41 Agricultura).
+          p.mb-4 #[b Alcance:] esta norma se aplica a todos los inventarios, excepto a: (a) [eliminado] (b) los instrumentos financieros (véanse las #[a(:href="obtenerLink('downloads/32_NIC.pdf')" target="_blank" type="application/pdf" style="color: blue; cursor: pointer;") NIC 32 Instrumentos financieros: presentación] y #[a(:href="obtenerLink('downloads/NIIF9_2014_v12112014.pdf')" target="_blank" type="application/pdf" style="color: blue; cursor: pointer;") NIIF 9 Instrumentos financieros)]; y (c) los activos biológicos relacionados con la actividad agrícola y productos agrícolas en el punto de cosecha o recolección (#[a(:href="obtenerLink('downloads/41_NIC.pdf')" target="_blank" type="application/pdf" style="color: blue; cursor: pointer;") ver la NIC 41 Agricultura]).
           p Esta norma no se aplica en la medición de los inventarios mantenidos por: a) Productores de productos agrícolas y forestales, de productos agrícolas tras la cosecha o recolección, de minerales y de productos minerales, siempre que sean medidos por su valor neto realizable, de acuerdo con prácticas bien consolidadas en esos sectores industriales.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -411,10 +411,10 @@
             ul.lista-ul
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 #[b Costo total] = Costos fijos + costos variables
+                p.mb-0 #[b Costo total] = Costos fijos + costos variables.
               li.d-flex
                 i.fas.fa-angle-right
-                p.mb-0 #[b Costo unitario] = Costo total / número de unidades a producir
+                p.mb-0 #[b Costo unitario] = Costo total / número de unidades a producir.
     .titulo-tres: h3 Punto de equilibrio
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -469,6 +469,7 @@
                 td 7105
                 td.text-left Materiales directos
                 td.text-right $24.893.000
+                td.text-right -
               tr
                 td 7105
                 td.text-left Materiales directos
@@ -499,11 +500,11 @@
                 td 1410
                 td.text-left Productos en proceso
                 td.text-right $55.217.200
-                td
+                td.text-right -
               tr
                 td 7105
                 td.text-left Materiales directos
-                td
+                td.text-right -
                 td.text-right $55.217.200
               tr
                 td 1410
@@ -519,7 +520,7 @@
                 td 7305
                 td.text-left Costos indirectos de fabricación
                 td.text-right $6.485.758
-                td
+                td.text-right -
               tr
                 td 2335
                 td.text-left Costos y gastos por pagar
